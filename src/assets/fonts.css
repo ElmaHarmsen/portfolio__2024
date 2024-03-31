@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'JostRegular';
+  src: url('../assets/fonts/Jost-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'JostBold';
+  src: url('../assets/fonts/Jost-Bold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
