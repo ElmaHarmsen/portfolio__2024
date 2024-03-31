@@ -15,16 +15,16 @@ function openNav() {
       <h1>menu</h1>
     </div>
     <div class="nav-container" v-if="isNavOpen">
-      <RouterLink to="/" class="nav-container__item">
+      <RouterLink to="/" class="nav-container__item" @click="openNav">
         <h1>home page</h1>
       </RouterLink>
-      <RouterLink to="/about" class="nav-container__item">
+      <RouterLink to="/about" class="nav-container__item" @click="openNav">
         <h1>about me</h1>
       </RouterLink>
-      <RouterLink to="/experience" class="nav-container__item">
+      <RouterLink to="/experience" class="nav-container__item" @click="openNav">
         <h1>experience</h1>
       </RouterLink>
-      <RouterLink to="/contact" class="nav-container__item">
+      <RouterLink to="/contact" class="nav-container__item" @click="openNav">
         <h1>contact</h1>
       </RouterLink>
     </div>

@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import LandingView from './components/LandingView.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -9,6 +10,9 @@ import LandingView from './components/LandingView.vue'
       <LandingView />
     </header>
     <RouterView />
+    <footer>
+      <FooterSection />
+    </footer>
   </main>
 </template>
 
