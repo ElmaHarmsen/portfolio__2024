@@ -5,9 +5,6 @@ defineProps({
 })
 </script>
 
-<!-- prop title
-prop text  -->
-
 <template>
   <main class="title-paragraph-container">
     <h1 v-if="title" class="title-paragraph-container__title">{{ title }}</h1>
@@ -21,8 +18,6 @@ prop text  -->
   flex-flow: column nowrap;
   align-items: center;
   row-gap: var(--small-gap);
-  &__title {
-  }
 
   &__paragraph {
     width: 800px;
