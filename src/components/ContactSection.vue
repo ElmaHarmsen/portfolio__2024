@@ -1,6 +1,6 @@
 <template>
   <section class="section-grid">
-    <h1 class="section-grid__title">How To Contact</h1>
+    <h1 class="section-grid__title">How To Contact Me</h1>
     <div class="section-grid__content">
       <div class="social-link">
         <img

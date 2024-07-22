@@ -1,7 +1,7 @@
 <template>
   <section class="section-grid">
     <div class="section-grid__title">
-      <h1>Work Experience</h1>
+      <h1>Daily UI Showcase</h1>
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -21,16 +21,12 @@
         />
       </div>
       <div class="content-item">
-        <h2>Team Project #1</h2>
+        <h2>Daily UI #00</h2>
         <img
           class="content-item__image"
-          src="../assets/imgs/UXProject1.png"
+          src="../assets/imgs/DailyUI17.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-      </div>
-      <div class="content-item button-area">
-        <h2>SEE ALL</h2>
-        <img class="content-item__arrow" src="../assets/imgs/ArrowRight.png" alt="" />
       </div>
     </div>
   </section>
@@ -57,24 +53,11 @@
     row-gap: 150px;
 
     .content-item {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 30px;
-
       &__image {
         width: 300px;
+        margin: 30px 0 0 0;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
       }
-
-      &__arrow {
-        width: 100px;
-      }
-    }
-
-    .button-area {
-      display: flex;
-      flex-flow: row nowrap;
-      column-gap: 30px;
     }
   }
 }

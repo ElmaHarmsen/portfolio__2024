@@ -1,3 +1,17 @@
+<script setup>
+import HelloExperience from '../components/HelloExperience.vue'
+import DailyUIShowcase from '../components/DailyUIShowcase.vue'
+import UXProject from '../components/UXProject.vue'
+import UXEvaluation from '../components/UXEvaluation.vue'
+import RobotAIResearch from '../components/RobotAIResearch.vue'
+</script>
+
 <template>
-  <section></section>
+  <main>
+    <HelloExperience heading="My Work Experience" subHeading="Lorem ipsum" />
+    <DailyUIShowcase />
+    <UXProject />
+    <UXEvaluation />
+    <RobotAIResearch />
+  </main>
 </template>
