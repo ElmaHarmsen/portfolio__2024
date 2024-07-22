@@ -1,6 +1,10 @@
 <script setup>
 defineProps({
-  msg: {
+  heading: {
+    type: String,
+    required: true
+  },
+  subHeading: {
     type: String,
     required: true
   }
@@ -8,37 +12,55 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+  <section class="landing-grid">
+    <div class="landing-msg landing-grid__messages">
+      <h1 class="landing-msg__heading">{{ heading }}</h1>
+      <h2 class="landing-msg__subHeading">{{ subHeading }}</h2>
+      <h2 class="landing-msg__greeting">Elma H.</h2>
+    </div>
+    <div class="landing-images landing-grid__images">
+      <img class="landing-images__arrow" src="../assets/imgs/arrow.png" alt="" />
+
+      <img
+        class="landing-images__figure"
+        src="../assets/imgs/stickyfig.png"
+        alt="hand-drawn stick figure"
+      />
+    </div>
+  </section>
 </template>
 
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
+<style lang="scss" scoped>
+.landing-grid {
+  display: grid;
+  grid-template-columns: 30% 1fr 10%;
+  grid-template-rows: 20% 1fr 1fr;
+  height: 100vh;
+
+  &__messages {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  &__images {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+  }
 }
 
-h3 {
-  font-size: 1.2rem;
-}
+.landing-images {
+  display: grid;
+  margin: 40px 0;
 
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
+  &__arrow {
+    height: 100px;
+    align-self: end;
+    justify-self: center;
+  }
+  &__figure {
+    height: 350px;
+    grid-column-start: 2;
   }
 }
 </style>

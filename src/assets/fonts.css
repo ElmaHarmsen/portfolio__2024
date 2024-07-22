@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'SourceSerifMedium';
+  src: url('../fonts/SourceSerif4_18pt-Medium.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSerifSemiBold';
+  src: url('../fonts/SourceSerif4_18pt-SemiBold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
