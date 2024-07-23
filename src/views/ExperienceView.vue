@@ -4,6 +4,7 @@ import DailyUIShowcase from '../components/DailyUIShowcase.vue'
 import UXProject from '../components/UXProject.vue'
 import UXEvaluation from '../components/UXEvaluation.vue'
 import RobotAIResearch from '../components/RobotAIResearch.vue'
+import ContactLinks from '../components/ContactLinks.vue'
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import RobotAIResearch from '../components/RobotAIResearch.vue'
     <UXProject />
     <UXEvaluation />
     <RobotAIResearch />
+    <ContactLinks />
   </main>
 </template>

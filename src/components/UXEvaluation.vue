@@ -8,7 +8,7 @@
         <img
           class="content-item__image"
           src="../assets/imgs/UUWebsite-1.png"
-          alt="Daily UI #27 Gradient picker dropdown"
+          alt="Uppsala University old website"
         />
       </div>
       <div class="content-item">
@@ -39,48 +39,9 @@
           vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
           quis, vehicula pharetra diam. Aenean id nulla tellus.
         </p>
-      </div>
-      <div class="content-item">
-        <img
-          class="content-item__image"
-          src="../assets/imgs/UUWebsite-1.png"
-          alt="Daily UI #27 Gradient picker dropdown"
-        />
       </div>
     </div>
   </section>
 </template>
 
-<style lang="scss" scoped>
-.section-grid {
-  display: grid;
-  grid-template-columns: 30% 1fr 15%;
-  grid-template-rows: 300px auto 1fr;
-  min-height: 100vh;
-
-  &__title {
-    grid-column-start: 2;
-    grid-row-start: 2;
-  }
-
-  &__content {
-    grid-column-start: 2;
-    grid-row-start: 3;
-    margin: 150px 0 0 0;
-    display: flex;
-    flex-flow: column nowrap;
-    row-gap: 150px;
-
-    .content-item {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 30px;
-
-      &__image {
-        width: 750px;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-      }
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

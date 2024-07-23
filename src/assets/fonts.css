@@ -1,13 +1,41 @@
 @font-face {
+  font-family: 'SourceSerifRegular';
+  src: url('../assets/fonts/SourceSerif4_18pt-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'SourceSerifMedium';
-  src: url('../fonts/SourceSerif4_18pt-Medium.ttf') format('truetype');
+  src: url('../assets/fonts/SourceSerif4_18pt-Medium.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SourceSerifSemiBold';
-  src: url('../fonts/SourceSerif4_18pt-SemiBold.ttf') format('truetype');
+  src: url('../assets/fonts/SourceSerif4_18pt-SemiBold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSerifBold';
+  src: url('../assets/fonts/SourceSerif4_18pt-Bold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSerifExtraBold';
+  src: url('../assets/fonts/SourceSerif4_18pt-ExtraBold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansBold';
+  src: url('../assets/fonts/SourceSans3-Bold.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }

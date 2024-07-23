@@ -1,7 +1,7 @@
 <template>
   <section class="section-grid">
     <div class="section-grid__title">
-      <h1>UX Team Project</h1>
+      <h1>UX Project</h1>
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -51,36 +51,4 @@
   </section>
 </template>
 
-<style lang="scss" scoped>
-.section-grid {
-  display: grid;
-  grid-template-columns: 30% 1fr 15%;
-  grid-template-rows: 300px auto 1fr;
-  min-height: 100vh;
-
-  &__title {
-    grid-column-start: 2;
-    grid-row-start: 2;
-  }
-
-  &__content {
-    grid-column-start: 2;
-    grid-row-start: 3;
-    margin: 150px 0 0 0;
-    display: flex;
-    flex-flow: column nowrap;
-    row-gap: 150px;
-
-    .content-item {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 30px;
-
-      &__image {
-        width: 300px;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-      }
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>
