@@ -1,7 +1,9 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --bg-white: #ffffff; /*#f5f5f5;*/
+  --dot-gray: #e2e2df;
   --text-black: #0a0a0a;
+  --bright-blue: #0000ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,7 +33,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: white;
-  background-image: radial-gradient(#e2e2df 1px, transparent 0);
+  background-image: radial-gradient(var(--dot-gray) 1px, transparent 0);
   background-attachment: fixed;
   background-size: 20px 20px;
 }

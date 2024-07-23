@@ -1,7 +1,7 @@
 <template>
   <section class="section-grid">
     <div class="section-grid__title">
-      <h1>Robot/AI Research</h1>
+      <h1>Robot-AI Research</h1>
     </div>
     <div class="section-grid__content">
       <div class="content-item">

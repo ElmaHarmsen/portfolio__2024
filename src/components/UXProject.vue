@@ -1,7 +1,7 @@
 <template>
   <section class="section-grid">
     <div class="section-grid__title">
-      <h1>UX Project</h1>
+      <h1>UX Team Project</h1>
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -12,7 +12,7 @@
         />
       </div>
       <div class="content-item">
-        <h2>Paragraph Title</h2>
+        <h2>The Problem</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
@@ -30,7 +30,7 @@
         />
       </div>
       <div class="content-item">
-        <h2>Paragraph Title</h2>
+        <h2>Progess</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
@@ -46,6 +46,17 @@
           src="../assets/imgs/UXProject1.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
+      </div>
+      <div class="content-item">
+        <h2>Outcomes</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
+          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
+          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
+          porttitor fermentum lectus eu volutpat. In sit amet tempor arcu. Vivamus lacus lorem,
+          vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
+          quis, vehicula pharetra diam. Aenean id nulla tellus.
+        </p>
       </div>
     </div>
   </section>

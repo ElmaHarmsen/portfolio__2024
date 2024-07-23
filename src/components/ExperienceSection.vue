@@ -29,10 +29,12 @@
         />
         <h2 class="content-item__heading">Daily UI #00</h2>
       </div>
-      <div class="arrow-section">
-        <h2 class="content-item__heading">See all Work</h2>
-        <img class="arrow-section__image" src="../assets/imgs/arrow-1.png" alt="" />
-      </div>
+      <router-link to="/experience">
+        <div class="content-item__container">
+          <h2 class="link-text">There's More To See</h2>
+          <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
+        </div>
+      </router-link>
     </div>
   </section>
 </template>
@@ -66,14 +68,23 @@
   }
 }
 
-.arrow-section {
-  display: flex;
-  flex-flow: row nowrap;
+.content-item {
+  &__container {
+    display: flex;
+    flex-flow: column nowrap;
 
-  &__image {
-    width: 250px;
-    transform: translateX(0px) translateY(10px);
-    position: absolute;
+    .link-text {
+      text-align: right;
+    }
+
+    .long-image {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      width: calc(100% - (30%));
+      height: 30px;
+      transform: translateY(10px);
+    }
   }
 }
 </style>

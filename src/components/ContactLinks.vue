@@ -10,9 +10,17 @@
         </a>
         <h2>drive.google/Resume</h2>
         <h2>elmaharmsen01@gmail.com</h2>
+        <br />
       </div>
     </div>
   </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.content-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  height: 100%;
+}
+</style>

@@ -7,10 +7,7 @@ import ContactSection from '../components/ContactSection.vue'
 
 <template>
   <main>
-    <HelloWorld
-      heading="Designing Human-Centred"
-      subHeading="Introducing a Human-Computer Interaction Specialist"
-    />
+    <HelloWorld />
     <ExperienceSection />
     <AboutSection />
     <ContactSection />

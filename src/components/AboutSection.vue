@@ -6,6 +6,14 @@
     </div>
     <div class="section-grid__content">
       <div class="content-item">
+        <h2 class="content-item__heading">Smth</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
+          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
+          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. <br />
+        </p>
+      </div>
+      <div class="content-item">
         <h2 class="content-item__heading">smth</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
@@ -17,7 +25,7 @@
         </p>
       </div>
       <div class="content-item">
-        <h2 class="content-item__heading">smth</h2>
+        <h2 class="content-item__heading">Inspirations</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
