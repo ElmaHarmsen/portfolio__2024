@@ -6,7 +6,7 @@
     </div>
     <div class="section-grid__content">
       <div class="content-item">
-        <h2 class="content-item__heading">Smth</h2>
+        <h2 class="content-item__heading">Who Am I?</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
@@ -14,7 +14,18 @@
         </p>
       </div>
       <div class="content-item">
-        <h2 class="content-item__heading">smth</h2>
+        <h2 class="content-item__heading">Humans</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
+          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
+          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
+          porttitor fermentum lectus eu volutpat. In sit amet tempor arcu. Vivamus lacus lorem,
+          vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
+          quis, vehicula pharetra diam. Aenean id nulla tellus. <br />
+        </p>
+      </div>
+      <div class="content-item">
+        <h2 class="content-item__heading">Optimism</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit

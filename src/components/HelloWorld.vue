@@ -3,24 +3,20 @@
     <div class="landing-grid__title">
       <h1>
         Designing <br />
-        Human Centred
+        Human-Centred
       </h1>
-      <!-- <h2>{{ subHeading }}</h2> -->
+      <img class="line-image" src="../assets/imgs/under-line-1.png" alt="" />
     </div>
     <div class="landing-grid__content">
       <div class="content-item">
-        <p>
-          Introducing an interaction designer and user experience researcher. I am specialised in
-          the researching, designing and evaluating of many kinds of human-computer based
-          interactions and human-centred technologies.
-        </p>
         <h2>Because we're all Human</h2>
+        <p>Elma H.</p>
       </div>
     </div>
     <div class="image-container">
       <img
         class="image-container__figure"
-        src="../assets/imgs/stickyfig.png"
+        src="../assets/imgs/stick-figure-4.png"
         alt="hand-drawn stick figure"
       />
     </div>
@@ -28,6 +24,12 @@
 </template>
 
 <style lang="scss" scoped>
+.line-image {
+  width: 300px;
+  transform: translateX(-635px) translateY(-30px);
+  position: absolute;
+}
+
 .landing-grid {
   display: grid;
   grid-template-columns: 5% 1fr 30%;
@@ -50,7 +52,7 @@
     .content-item {
       display: flex;
       flex-flow: column nowrap;
-      justify-content: space-between;
+      row-gap: 30px;
       height: 100%;
 
       p {
@@ -60,13 +62,14 @@
     }
   }
   .image-container {
+    position: absolute;
+    right: calc(30% + 350px + 100px);
     grid-column: 2;
-    grid-row: 3 / span 2;
-    justify-self: start;
+    grid-row: 3 / span 3;
     align-self: end;
 
     &__figure {
-      height: 500px;
+      height: 350px;
       grid-column-start: 2;
     }
   }

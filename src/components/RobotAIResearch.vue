@@ -7,12 +7,12 @@
       <div class="content-item">
         <img
           class="content-item__image"
-          src="../assets/imgs/RobotScene1.png"
+          src="../assets/imgs/RobotScene3.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
       </div>
       <div class="content-item">
-        <h2>Paragraph Title</h2>
+        <h2>Humans & Robots</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
@@ -25,7 +25,7 @@
       <div class="content-item">
         <img
           class="content-item__image"
-          src="../assets/imgs/RobotScene3.png"
+          src="../assets/imgs/RobotScene1.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
       </div>

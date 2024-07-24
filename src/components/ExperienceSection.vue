@@ -31,8 +31,8 @@
       </div>
       <router-link to="/experience">
         <div class="content-item__container">
+          <img class="long-image" src="../assets/imgs/long-line-3.png" alt="" />
           <h2 class="link-text">There's More To See</h2>
-          <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
         </div>
       </router-link>
     </div>
@@ -73,17 +73,13 @@
     display: flex;
     flex-flow: column nowrap;
 
-    .link-text {
-      text-align: right;
-    }
-
     .long-image {
       position: absolute;
       z-index: 1;
-      left: 0;
-      width: calc(100% - (30%));
+      right: 0;
+      width: calc(30% + 350px);
       height: 30px;
-      transform: translateY(10px);
+      transform: translateY(5px);
     }
   }
 }

@@ -6,7 +6,10 @@
     </div>
     <div class="section-grid__content">
       <div class="content-item">
-        <p>When our paths cross, then let us say hello.</p>
+        <p>
+          When our paths cross, then let us say <span class="italic-text">hello</span>. <br />
+          I am looking for new opportunities
+        </p>
       </div>
       <div class="content-item">
         <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
@@ -17,16 +20,16 @@
         </a>
         <a href="https://github.com/ElmaHarmsen" target="_blank">
           <div class="content-item__container">
-            <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
+            <img class="long-image" src="../assets/imgs/long-line-2.png" alt="" />
             <h2>github/ElmaHarmsen</h2>
           </div>
         </a>
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
+          <img class="long-image" src="../assets/imgs/long-line-3.png" alt="" />
           <h2>drive.google/Resume</h2>
         </div>
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
+          <img class="long-image" src="../assets/imgs/long-line-4.png" alt="" />
           <h2>elmaharmsen01@gmail.com</h2>
         </div>
         <br />
