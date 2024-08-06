@@ -1,8 +1,8 @@
 <template>
   <section class="section-grid">
     <div class="section-grid__title">
-      <h1>My Recent Work</h1>
-      <img class="line-image" src="../assets/imgs/line-3.png" alt="" />
+      <h1>Recent Work</h1>
+      <img class="line-image" src="../assets/imgs/recent-work.png" alt="" />
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -11,7 +11,7 @@
           src="../assets/imgs/DailyUI27-1.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <h2 class="content-item__heading">Daily UI #27</h2>
+        <p class="content-item__heading">Daily UI #27</p>
       </div>
       <div class="content-item">
         <img
@@ -19,7 +19,7 @@
           src="../assets/imgs/DailyUI17.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <h2 class="content-item__heading">Daily UI #17</h2>
+        <p class="content-item__heading">Daily UI #17</p>
       </div>
       <div class="content-item">
         <img
@@ -27,12 +27,12 @@
           src="../assets/imgs/DailyUI17.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <h2 class="content-item__heading">Daily UI #00</h2>
+        <p class="content-item__heading">Daily UI #00</p>
       </div>
       <router-link to="/experience">
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-3.png" alt="" />
-          <h2 class="link-text">There's More To See</h2>
+          <img class="button-image" src="../assets/imgs/see-all-work.png" alt="" />
+          <h2 class="link-text">See All Work</h2>
         </div>
       </router-link>
     </div>
@@ -42,7 +42,7 @@
 <style lang="scss" scoped>
 .line-image {
   width: 350px;
-  transform: translateX(10px) translateY(25px);
+  transform: translateX(110px) translateY(30px);
   position: absolute;
 }
 
@@ -59,10 +59,6 @@
     text-align: justify;
   }
 
-  // &__image {
-  //   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-  // }
-
   &__arrow {
     width: 150px;
   }
@@ -73,13 +69,10 @@
     display: flex;
     flex-flow: column nowrap;
 
-    .long-image {
+    .button-image {
+      width: 200px;
+      transform: translateX(-30px) translateY(-30px);
       position: absolute;
-      z-index: 1;
-      right: 0;
-      width: calc(30% + 350px);
-      height: 30px;
-      transform: translateY(5px);
     }
   }
 }

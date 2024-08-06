@@ -39,3 +39,38 @@
   font-display: swap;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'PlaywriteAT-Regular';
+  src: url('../assets/fonts/PlaywriteAT-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IndieFlower-Regular';
+  src: url('../assets/fonts/IndieFlower-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NothingYouCouldDo-Regular';
+  src: url('../assets/fonts/NothingYouCouldDo-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans-Medium';
+  src: url('../assets/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans-Bold';
+  src: url('../assets/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}

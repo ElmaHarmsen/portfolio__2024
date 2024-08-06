@@ -2,6 +2,7 @@
   <section class="section-grid">
     <div class="section-grid__title">
       <h1>Robot-AI Research</h1>
+      <img class="line-image" src="../assets/imgs/line-6.png" alt="" />
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -69,4 +70,10 @@
   </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.line-image {
+  width: 350px;
+  transform: translateX(-10px) translateY(70px);
+  position: absolute;
+}
+</style>

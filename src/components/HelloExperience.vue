@@ -2,22 +2,22 @@
   <section class="landing-grid">
     <div class="landing-grid__title">
       <h1>
-        Here's My <br />
+        Design Cases &<br />
         Work Experience
       </h1>
     </div>
     <div class="landing-grid__content">
       <div class="content-item">
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
+          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
           <h2>Daily UI Challenges</h2>
         </div>
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-2.png" alt="" />
+          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
           <h2>UX Team Project</h2>
         </div>
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-3.png" alt="" />
+          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
           <h2>Robot-AI Research</h2>
         </div>
       </div>
@@ -26,23 +26,26 @@
 </template>
 
 <style lang="scss" scoped>
+.line-image {
+  width: 30px;
+  transform: translateX(-50px) translateY(10px);
+  position: absolute;
+}
+
 .landing-grid {
   display: grid;
-  grid-template-columns: 5% 1fr 30%;
+  grid-template-columns: 35% 1fr 5%;
   grid-template-rows: 150px auto 150px 1fr 40px;
   height: 100vh;
 
   &__title {
     grid-column: 2;
-    justify-self: end;
     grid-row-start: 2;
-    text-align: right;
   }
 
   &__content {
     grid-column: 2;
     grid-row-start: 4;
-    justify-self: end;
     width: 350px;
 
     .content-item {
@@ -58,12 +61,6 @@
       }
     }
   }
-}
-
-.line-image {
-  width: 150px;
-  transform: translateX(150px) translateY(5px);
-  position: absolute;
 }
 
 .content-item {

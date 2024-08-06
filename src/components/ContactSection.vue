@@ -2,7 +2,7 @@
   <section class="section-grid">
     <div class="section-grid__title">
       <h1>Say Hello</h1>
-      <img class="line-image" src="../assets/imgs/ooo.png" alt="" />
+      <img class="say-hello-image" src="../assets/imgs/say-hello.png" alt="" />
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -14,23 +14,23 @@
       <div class="content-item">
         <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
           <div class="content-item__container">
-            <img class="long-image" src="../assets/imgs/long-line-1.png" alt="" />
-            <h2>linkedin/elma-harmsen</h2>
+            <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
+            <p>linkedin/elma-harmsen</p>
           </div>
         </a>
         <a href="https://github.com/ElmaHarmsen" target="_blank">
           <div class="content-item__container">
-            <img class="long-image" src="../assets/imgs/long-line-2.png" alt="" />
-            <h2>github/ElmaHarmsen</h2>
+            <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
+            <p>github/ElmaHarmsen</p>
           </div>
         </a>
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-3.png" alt="" />
-          <h2>drive.google/Resume</h2>
+          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
+          <p>drive.google/Resume</p>
         </div>
         <div class="content-item__container">
-          <img class="long-image" src="../assets/imgs/long-line-4.png" alt="" />
-          <h2>elmaharmsen01@gmail.com</h2>
+          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
+          <p>elmaharmsen01@gmail.com</p>
         </div>
         <br />
       </div>
@@ -40,8 +40,14 @@
 
 <style lang="scss" scoped>
 .line-image {
-  width: 150px;
-  transform: translateX(150px) translateY(5px);
+  width: 30px;
+  transform: translateX(-50px) translateY(10px);
+  position: absolute;
+}
+
+.say-hello-image {
+  width: 350px;
+  transform: translateX(-15px) translateY(80px);
   position: absolute;
 }
 
@@ -49,15 +55,6 @@
   &__container {
     display: flex;
     flex-flow: column nowrap;
-
-    .long-image {
-      position: absolute;
-      z-index: 1;
-      right: 0;
-      width: calc(30% + 350px);
-      height: 30px;
-      transform: translateY(5px);
-    }
   }
 }
 </style>
