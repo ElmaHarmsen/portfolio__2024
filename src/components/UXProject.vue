@@ -2,7 +2,7 @@
   <section class="section-grid" id="ux-project-section">
     <div class="section-grid__title">
       <h1>UX Project</h1>
-      <img class="line-image" src="../assets/imgs/ux-project.png" alt="" />
+      <img class="line-image" src="../assets/imgs/ux-project.png" alt="circle over ux project" />
     </div>
     <div class="section-grid__content">
       <div class="content-item">

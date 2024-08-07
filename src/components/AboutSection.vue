@@ -2,7 +2,7 @@
   <section class="section-grid" id="about-section">
     <div class="section-grid__title">
       <h1>A Little About Me</h1>
-      <img class="line-image" src="../assets/imgs/about-me.png" alt="" />
+      <img class="line-image" src="../assets/imgs/about-me.png" alt="circle over about me" />
     </div>
     <div class="section-grid__content">
       <div class="content-item">

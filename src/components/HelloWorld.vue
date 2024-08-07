@@ -5,7 +5,11 @@
         Designing <br />
         Human-Centred
       </h1>
-      <img class="line-image" src="../assets/imgs/hello-world.png" alt="" />
+      <img
+        class="line-image"
+        src="../assets/imgs/hello-world.png"
+        alt="circle over designing human-centred"
+      />
     </div>
     <div class="landing-grid__content">
       <div class="content-item">

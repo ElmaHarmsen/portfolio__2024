@@ -25,7 +25,11 @@ const scrollIntoView = (id) => {
       <div class="content-item">
         <router-link to="/" @click="homeNavOpen = !homeNavOpen" @mouseover="homeNavOpen = true">
           <h2>Home</h2>
-          <img class="line-image" src="../assets/imgs/menu-underline-home.png" alt="" />
+          <img
+            class="line-image"
+            src="../assets/imgs/menu-underline-home.png"
+            alt="line under navigation item home"
+          />
         </router-link>
         <div v-if="homeNavOpen" class="content-item__navitems">
           <p @click="scrollIntoView('experience-section')">{{ homeNavItemOne }}</p>
@@ -40,7 +44,11 @@ const scrollIntoView = (id) => {
           @mouseover="caseNavOpen = true"
         >
           <h2>Cases</h2>
-          <img class="line-image" src="../assets/imgs/menu-underline-cases.png" alt="" />
+          <img
+            class="line-image"
+            src="../assets/imgs/menu-underline-cases.png"
+            alt="line under navigation item cases"
+          />
         </router-link>
         <div v-if="caseNavOpen" class="content-item__navitems">
           <p @click="scrollIntoView('daily-ui-section')">{{ caseNavItemOne }}</p>

@@ -2,7 +2,11 @@
   <section class="section-grid" id="experience-section">
     <div class="section-grid__title">
       <h1>Recent Work</h1>
-      <img class="line-image" src="../assets/imgs/recent-work.png" alt="" />
+      <img
+        class="line-image"
+        src="../assets/imgs/recent-work.png"
+        alt="squigly line under recent work"
+      />
     </div>
     <div class="section-grid__content">
       <div class="content-item">
@@ -29,12 +33,6 @@
         />
         <h2 class="content-item__heading">Daily UI #00</h2>
       </div>
-      <!-- <router-link to="/experience">
-        <div class="content-item__container">
-          <img class="button-image" src="../assets/imgs/see-all-work-arrow.png" alt="" />
-          <h2 class="content-item__heading">See All Work</h2>
-        </div>
-      </router-link> -->
     </div>
   </section>
 </template>

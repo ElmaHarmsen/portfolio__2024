@@ -2,7 +2,7 @@
   <section class="section-grid" id="daily-ui-section">
     <div class="section-grid__title">
       <h1>Daily UI</h1>
-      <img class="line-image" src="../assets/imgs/daily-ui.png" alt="" />
+      <img class="line-image" src="../assets/imgs/daily-ui.png" alt="circle over daily ui" />
     </div>
     <div class="section-grid__content">
       <div class="content-item">

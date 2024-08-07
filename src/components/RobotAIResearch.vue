@@ -2,7 +2,11 @@
   <section class="section-grid" id="research-section">
     <div class="section-grid__title">
       <h1>Robot-AI Research</h1>
-      <img class="line-image" src="../assets/imgs/robot-ai.png" alt="" />
+      <img
+        class="line-image"
+        src="../assets/imgs/robot-ai.png"
+        alt="squigly line under robot-ai research"
+      />
     </div>
     <div class="section-grid__content">
       <div class="content-item">
