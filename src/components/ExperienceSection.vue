@@ -8,10 +8,10 @@
       <div class="content-item">
         <img
           class="content-item__image"
-          src="../assets/imgs/DailyUI27-1.png"
+          src="../assets/imgs/DailyUI27.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <p class="content-item__heading">Daily UI #27</p>
+        <h2 class="content-item__heading">Daily UI #27</h2>
       </div>
       <div class="content-item">
         <img
@@ -19,7 +19,7 @@
           src="../assets/imgs/DailyUI17.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <p class="content-item__heading">Daily UI #17</p>
+        <h2 class="content-item__heading">Daily UI #17</h2>
       </div>
       <div class="content-item">
         <img
@@ -27,12 +27,12 @@
           src="../assets/imgs/DailyUI17.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <p class="content-item__heading">Daily UI #00</p>
+        <h2 class="content-item__heading">Daily UI #00</h2>
       </div>
       <router-link to="/experience">
         <div class="content-item__container">
-          <img class="button-image" src="../assets/imgs/see-all-work.png" alt="" />
-          <h2 class="link-text">See All Work</h2>
+          <img class="button-image" src="../assets/imgs/see-all-work-arrow.png" alt="" />
+          <h2 class="content-item__heading">See All Work</h2>
         </div>
       </router-link>
     </div>
@@ -70,8 +70,8 @@
     flex-flow: column nowrap;
 
     .button-image {
-      width: 200px;
-      transform: translateX(-30px) translateY(-30px);
+      width: 150px;
+      transform: translateX(-20px) translateY(40px);
       position: absolute;
     }
   }

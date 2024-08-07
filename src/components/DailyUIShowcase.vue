@@ -5,27 +5,38 @@
       <img class="line-image" src="../assets/imgs/daily-ui.png" alt="" />
     </div>
     <div class="section-grid__content">
-      <div class="content-item__row">
+      <div class="content-item">
         <img
           class="content-item__image"
-          src="../assets/imgs/DailyUI27-1.png"
+          src="../assets/imgs/DailyUI27.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <div class="description-wrapper">
-          <img class="content-item__description" src="../assets/imgs/number.png" alt="" />
-          <img class="content-item__number" src="../assets/imgs/number-27.png" alt="" />
-        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
+          non dapibus aliquet, scelerisque at magna.
+        </p>
       </div>
-      <div class="content-item__row">
+      <div class="content-item">
         <img
           class="content-item__image"
           src="../assets/imgs/DailyUI17.png"
           alt="Daily UI #27 Gradient picker dropdown"
         />
-        <div class="description-wrapper">
-          <img class="content-item__description" src="../assets/imgs/number.png" alt="" />
-          <img class="content-item__number" src="../assets/imgs/number-17.png" alt="" />
-        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
+          non dapibus aliquet, scelerisque at magna.
+        </p>
+      </div>
+      <div class="content-item">
+        <img
+          class="content-item__image"
+          src="../assets/imgs/DailyUI17.png"
+          alt="Daily UI #27 Gradient picker dropdown"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
+          non dapibus aliquet, scelerisque at magna.
+        </p>
       </div>
     </div>
   </section>
@@ -33,8 +44,8 @@
 
 <style lang="scss" scoped>
 .line-image {
-  width: 350px;
-  transform: translateX(-20px) translateY(-50px);
+  width: 400px;
+  transform: translateX(-40px) translateY(-60px);
   position: absolute;
 }
 

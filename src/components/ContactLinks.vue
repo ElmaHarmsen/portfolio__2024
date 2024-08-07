@@ -44,15 +44,6 @@
   &__container {
     display: flex;
     flex-flow: column nowrap;
-
-    .long-image {
-      position: absolute;
-      z-index: 1;
-      right: 0;
-      width: calc(30% + 350px);
-      height: 30px;
-      transform: translateY(5px);
-    }
   }
 }
 </style>

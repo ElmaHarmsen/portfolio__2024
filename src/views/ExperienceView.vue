@@ -1,4 +1,5 @@
 <script setup>
+import MainNavigation from '../components/MainNavigation.vue'
 import HelloExperience from '../components/HelloExperience.vue'
 import DailyUIShowcase from '../components/DailyUIShowcase.vue'
 import UXProject from '../components/UXProject.vue'
@@ -8,6 +9,11 @@ import ContactLinks from '../components/ContactLinks.vue'
 
 <template>
   <main>
+    <MainNavigation
+      caseNavItemOne="Daily UI"
+      caseNavItemTwo="UX Cases"
+      caseNavItemThree="Research"
+    />
     <HelloExperience />
     <DailyUIShowcase />
     <UXProject />

@@ -17,20 +17,13 @@
         <p>Elma H.</p>
       </div>
     </div>
-    <!-- <div class="image-container">
-      <img
-        class="image-container__figure"
-        src="../assets/imgs/stick-figure-4.png"
-        alt="hand-drawn stick figure"
-      />
-    </div> -->
   </section>
 </template>
 
 <style lang="scss" scoped>
 .line-image {
   width: 700px;
-  transform: translateX(-80px) translateY(-210px);
+  transform: translateX(-80px) translateY(-215px);
   position: absolute;
 }
 

@@ -2,25 +2,9 @@
   <section class="landing-grid">
     <div class="landing-grid__title">
       <h1>
-        Design Cases &<br />
-        Work Experience
+        Design<br />
+        & UX
       </h1>
-    </div>
-    <div class="landing-grid__content">
-      <div class="content-item">
-        <div class="content-item__container">
-          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-          <h2>Daily UI Challenges</h2>
-        </div>
-        <div class="content-item__container">
-          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-          <h2>UX Team Project</h2>
-        </div>
-        <div class="content-item__container">
-          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-          <h2>Robot-AI Research</h2>
-        </div>
-      </div>
     </div>
   </section>
 </template>

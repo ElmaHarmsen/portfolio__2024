@@ -17,8 +17,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  font-family: 'NotoSans-Medium';
+  font-size: 16px;
+  font-family: 'NotoSans-Bold';
 }
 
 p {
