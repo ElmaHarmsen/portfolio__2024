@@ -29,12 +29,12 @@
         />
         <h2 class="content-item__heading">Daily UI #00</h2>
       </div>
-      <router-link to="/experience">
+      <!-- <router-link to="/experience">
         <div class="content-item__container">
           <img class="button-image" src="../assets/imgs/see-all-work-arrow.png" alt="" />
           <h2 class="content-item__heading">See All Work</h2>
         </div>
-      </router-link>
+      </router-link> -->
     </div>
   </section>
 </template>

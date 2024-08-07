@@ -1,28 +1,10 @@
 <template>
-  <section class="section-grid">
-    <div class="section-grid__content">
+  <section class="footer-grid">
+    <div class="footer-grid__content">
       <div class="content-item">
-        <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
-          <div class="content-item__container">
-            <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-            <p>linkedin/elma-harmsen</p>
-          </div>
-        </a>
-        <a href="https://github.com/ElmaHarmsen" target="_blank">
-          <div class="content-item__container">
-            <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-            <p>github/ElmaHarmsen</p>
-          </div>
-        </a>
-        <div class="content-item__container">
-          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-          <p>drive.google/Resume</p>
-        </div>
-        <div class="content-item__container">
-          <img class="line-image" src="../assets/imgs/contact-links.png" alt="" />
-          <p>elmaharmsen01@gmail.com</p>
-        </div>
-        <br />
+        <img class="figure-image" src="../assets/imgs/footer-figure.png" alt="" />
+        <img class="figure-image" src="../assets/imgs/footer-figure-2.png" alt="" />
+        <img class="figure-image" src="../assets/imgs/footer-figure-3.png" alt="" />
       </div>
     </div>
   </section>
@@ -35,15 +17,25 @@
   position: absolute;
 }
 
-.content-item {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-end;
-  height: 100%;
+.figure-image {
+  width: 100px;
+}
 
-  &__container {
+.footer-grid {
+  display: grid;
+  grid-template-columns: 35% 1fr 5%;
+  grid-template-rows: 200px 1fr 100px;
+
+  &__content {
+    grid-column: 2;
+    grid-row-start: 2;
+  }
+
+  .content-item {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
+    column-gap: 50px;
+    height: 100%;
   }
 }
 </style>

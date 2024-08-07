@@ -23,14 +23,14 @@
 <style lang="scss" scoped>
 .line-image {
   width: 700px;
-  transform: translateX(-80px) translateY(-215px);
+  transform: translateX(-80px) translateY(-230px);
   position: absolute;
 }
 
 .landing-grid {
   display: grid;
   grid-template-columns: 35% 1fr 5%;
-  grid-template-rows: 200px auto 150px 1fr 100px;
+  grid-template-rows: 200px auto 100px 1fr 100px;
   min-height: 100vh;
 
   &__title {
