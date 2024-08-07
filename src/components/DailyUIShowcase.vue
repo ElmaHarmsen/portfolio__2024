@@ -1,5 +1,5 @@
 <template>
-  <section class="section-grid">
+  <section class="section-grid" id="daily-ui-section">
     <div class="section-grid__title">
       <h1>Daily UI</h1>
       <img class="line-image" src="../assets/imgs/daily-ui.png" alt="" />

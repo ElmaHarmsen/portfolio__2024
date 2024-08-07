@@ -10,13 +10,17 @@ defineProps({
   caseNavItemTwo: String,
   caseNavItemThree: String
 })
+
+const scrollIntoView = (id) => {
+  if (!id) return
+  const elementInQuestion = document.getElementById(id)
+  if (!elementInQuestion) return
+  elementInQuestion.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
   <section class="main-navigation">
-    <!-- <div class="main-navigation__button" @click="navigationOpen = !navigationOpen">
-      <img class="image" src="../assets/imgs/menu.png" alt="" />
-    </div> -->
     <div class="main-navigation__content-wrapper">
       <div class="content-item">
         <router-link to="/" @click="homeNavOpen = !homeNavOpen" @mouseover="homeNavOpen = true">
@@ -24,9 +28,9 @@ defineProps({
           <img class="line-image" src="../assets/imgs/menu-underline-home.png" alt="" />
         </router-link>
         <div v-if="homeNavOpen" class="content-item__navitems">
-          <p>{{ homeNavItemOne }}</p>
-          <p>{{ homeNavItemTwo }}</p>
-          <p>{{ homeNavItemThree }}</p>
+          <p @click="scrollIntoView('experience-section')">{{ homeNavItemOne }}</p>
+          <p @click="scrollIntoView('about-section')">{{ homeNavItemTwo }}</p>
+          <p @click="scrollIntoView('contact-section')">{{ homeNavItemThree }}</p>
         </div>
       </div>
       <div class="content-item">
@@ -39,9 +43,9 @@ defineProps({
           <img class="line-image" src="../assets/imgs/menu-underline-cases.png" alt="" />
         </router-link>
         <div v-if="caseNavOpen" class="content-item__navitems">
-          <p>{{ caseNavItemOne }}</p>
-          <p>{{ caseNavItemTwo }}</p>
-          <p>{{ caseNavItemThree }}</p>
+          <p @click="scrollIntoView('daily-ui-section')">{{ caseNavItemOne }}</p>
+          <p @click="scrollIntoView('ux-project-section')">{{ caseNavItemTwo }}</p>
+          <p @click="scrollIntoView('research-section')">{{ caseNavItemThree }}</p>
         </div>
       </div>
     </div>
@@ -87,6 +91,10 @@ defineProps({
         display: flex;
         flex-flow: column nowrap;
         row-gap: 5px;
+
+        p {
+          cursor: pointer;
+        }
       }
     }
   }

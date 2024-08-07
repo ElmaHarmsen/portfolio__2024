@@ -1,5 +1,5 @@
 <template>
-  <section class="section-grid">
+  <section class="section-grid" id="contact-section">
     <div class="section-grid__title">
       <h1>Say Hello</h1>
       <img class="say-hello-image" src="../assets/imgs/say-hello.png" alt="" />

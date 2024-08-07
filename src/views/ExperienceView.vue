@@ -11,7 +11,7 @@ import ContactLinks from '../components/ContactLinks.vue'
   <main>
     <MainNavigation
       caseNavItemOne="Daily UI"
-      caseNavItemTwo="UX Cases"
+      caseNavItemTwo="UX Case"
       caseNavItemThree="Research"
     />
     <HelloExperience />

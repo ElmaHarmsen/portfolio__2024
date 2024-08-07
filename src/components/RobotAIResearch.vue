@@ -1,5 +1,5 @@
 <template>
-  <section class="section-grid">
+  <section class="section-grid" id="research-section">
     <div class="section-grid__title">
       <h1>Robot-AI Research</h1>
       <img class="line-image" src="../assets/imgs/robot-ai.png" alt="" />
@@ -73,7 +73,7 @@
 <style lang="scss" scoped>
 .line-image {
   width: 350px;
-  transform: translateX(-5px) translateY(60px);
+  transform: translateX(0px) translateY(60px);
   position: absolute;
 }
 </style>

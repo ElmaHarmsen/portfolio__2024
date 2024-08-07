@@ -30,7 +30,7 @@
   .section-grid {
     display: grid;
     grid-template-columns: 35% 1fr 5%;
-    grid-template-rows: 300px auto 150px 1fr;
+    grid-template-rows: 200px auto 150px 1fr;
     min-height: 100vh;
 
     &__title {

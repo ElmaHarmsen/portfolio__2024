@@ -1,5 +1,5 @@
 <template>
-  <section class="section-grid">
+  <section class="section-grid" id="about-section">
     <div class="section-grid__title">
       <h1>A Little About Me</h1>
       <img class="line-image" src="../assets/imgs/about-me.png" alt="" />

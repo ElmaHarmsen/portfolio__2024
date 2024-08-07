@@ -1,5 +1,5 @@
 <template>
-  <section class="section-grid">
+  <section class="section-grid" id="experience-section">
     <div class="section-grid__title">
       <h1>Recent Work</h1>
       <img class="line-image" src="../assets/imgs/recent-work.png" alt="" />
