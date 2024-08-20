@@ -11,9 +11,10 @@ import { RouterView } from 'vue-router'
 @import './assets/fonts.css';
 
 h1 {
-  font-size: 72px;
-  text-transform: capitalize;
+  font-size: 52px;
+  line-height: 1.2;
   font-family: 'NotoSans-Medium';
+  text-transform: uppercase;
 }
 
 h2 {
@@ -26,5 +27,19 @@ p {
   line-height: 1.5;
   font-family: 'NotoSans-Bold';
   text-align: justify;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 82px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
 </style>

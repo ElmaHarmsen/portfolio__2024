@@ -64,7 +64,7 @@ const scrollIntoView = (id) => {
 .main-navigation {
   position: absolute;
   top: 40px;
-  left: 40px;
+  right: 40px;
 
   &__button {
     cursor: pointer;

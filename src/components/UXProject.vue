@@ -66,7 +66,7 @@
 <style lang="scss" scoped>
 .line-image {
   width: 200px;
-  transform: translateX(-50px) translateY(-40px);
+  transform: translateX(-45px) translateY(-30px);
   position: absolute;
 }
 </style>

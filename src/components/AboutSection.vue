@@ -1,7 +1,10 @@
 <template>
   <section class="section-grid" id="about-section">
     <div class="section-grid__title">
-      <h1>A Little About Me</h1>
+      <h1>
+        A Little <br />
+        About Me
+      </h1>
       <img class="line-image" src="../assets/imgs/about-me.png" alt="circle over about me" />
     </div>
     <div class="section-grid__content">
@@ -35,8 +38,14 @@
 
 <style lang="scss" scoped>
 .line-image {
-  width: 350px;
-  transform: translateX(220px) translateY(-30px);
-  position: absolute;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .line-image {
+    width: 450px;
+    transform: translateX(-30px) translateY(60px);
+    position: absolute;
+  }
 }
 </style>

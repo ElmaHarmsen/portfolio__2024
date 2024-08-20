@@ -1,7 +1,10 @@
 <template>
   <section class="section-grid" id="experience-section">
     <div class="section-grid__title">
-      <h1>Recent Work</h1>
+      <h1>
+        Selected <br />
+        Work
+      </h1>
       <img
         class="line-image"
         src="../assets/imgs/recent-work.png"
@@ -39,9 +42,9 @@
 
 <style lang="scss" scoped>
 .line-image {
-  width: 350px;
-  transform: translateX(110px) translateY(30px);
-  position: absolute;
+  width: 100%;
+  transform: translateX(0px) translateY(-50px);
+  position: relative;
 }
 
 .content-item {
@@ -50,7 +53,7 @@
   row-gap: 30px;
 
   &__image {
-    width: 350px;
+    width: 100%;
   }
 
   &__heading {
@@ -59,6 +62,20 @@
 
   &__arrow {
     width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .line-image {
+    width: 400px;
+    transform: translateX(-10px) translateY(30px);
+    position: absolute;
+  }
+
+  .content-item {
+    &__image {
+      width: 350px;
+    }
   }
 }
 

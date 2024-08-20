@@ -9,7 +9,7 @@ import ContactSection from '../components/ContactSection.vue'
 <template>
   <main>
     <MainNavigation
-      homeNavItemOne="Recent Work"
+      homeNavItemOne="Selected Work"
       homeNavItemTwo="About Me"
       homeNavItemThree="Contact"
     />

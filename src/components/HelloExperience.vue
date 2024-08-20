@@ -2,8 +2,8 @@
   <section class="landing-grid">
     <div class="landing-grid__title">
       <h1>
-        Design<br />
-        & UX
+        Designing <br />
+        Human-Centred
       </h1>
     </div>
   </section>
@@ -59,6 +59,41 @@
       width: calc(30% + 350px);
       height: 30px;
       transform: translateY(5px);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing-grid {
+    display: grid;
+    grid-template-columns: 5% 1fr 5% 1fr 5%;
+    grid-template-rows: 200px auto 100px 1fr 100px;
+    min-height: 100vh;
+
+    &__title {
+      grid-column: 2 / span 3;
+      grid-row: 3;
+    }
+
+    &__content {
+      grid-column: 4;
+      grid-row-start: 4;
+      width: 350px;
+
+      .content-item {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: end;
+        row-gap: 30px;
+        height: 100%;
+      }
+    }
+    .image-container {
+      position: absolute;
+      right: calc(30% + 350px + 100px);
+      grid-column: 2;
+      grid-row: 3 / span 3;
+      align-self: end;
     }
   }
 }
