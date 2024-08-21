@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'NotoSans-Medium';
-  src: url('../assets/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-family: 'NotoSans-Bold';
+  src: url('../assets/fonts/NotoSans-Bold.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSans-Bold';
-  src: url('../assets/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-family: 'NotoSans-ExtraBold';
+  src: url('../assets/fonts/NotoSans-ExtraBold.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }

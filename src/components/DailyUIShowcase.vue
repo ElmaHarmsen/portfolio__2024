@@ -60,11 +60,5 @@
   &__image {
     width: 350px;
   }
-  &__description {
-    height: 80px;
-  }
-  &__number {
-    height: 80px;
-  }
 }
 </style>

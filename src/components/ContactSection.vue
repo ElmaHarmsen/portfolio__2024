@@ -1,25 +1,19 @@
 <template>
-  <section class="section-grid" id="contact-section">
-    <div class="section-grid__title">
+  <section class="footer-grid" id="contact-section">
+    <div class="footer-grid__title">
       <h1>Say Hello</h1>
-      <img
+      <!-- <img
         class="say-hello-image"
         src="../assets/imgs/say-hello.png"
         alt="squigly line under say hello"
-      />
+      /> -->
     </div>
-    <div class="section-grid__content item-offset">
+    <div class="footer-grid__content">
       <div class="content-item">
-        <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
+        <!-- <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
           <div class="container">
             <img class="line-image" src="../assets/imgs/contact-links.png" alt="list item line" />
             <p>linkedin/elma-harmsen</p>
-          </div>
-        </a>
-        <a href="https://github.com/ElmaHarmsen" target="_blank">
-          <div class="container">
-            <img class="line-image" src="../assets/imgs/contact-links.png" alt="list item line" />
-            <p>github/ElmaHarmsen</p>
           </div>
         </a>
         <a
@@ -30,9 +24,8 @@
             <img class="line-image" src="../assets/imgs/contact-links.png" alt="list item line" />
             <p>drive.google/resume</p>
           </div>
-        </a>
+        </a> -->
         <div class="container">
-          <img class="line-image" src="../assets/imgs/contact-links.png" alt="list item line" />
           <p>elmaharmsen01@gmail.com</p>
         </div>
       </div>
@@ -65,6 +58,7 @@
     .container {
       display: flex;
       flex-flow: column nowrap;
+      row-gap: 10px;
     }
   }
 }
@@ -84,21 +78,23 @@
 
   .footer-grid {
     display: grid;
-    grid-template-columns: 35% 1fr 5%;
-    grid-template-rows: 150px auto 250px 1fr 150px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 200px auto 50px 1fr 200px;
+    min-height: 100vh;
+
+    &__title {
+      grid-column: 2;
+      grid-row-start: 2;
+    }
 
     &__content {
       grid-column: 2;
-      grid-row-start: 2;
+      grid-row-start: 4;
 
       .container {
         display: flex;
         flex-flow: column nowrap;
       }
-    }
-
-    .item-offset {
-      transform: translateX(50px);
     }
   }
 }

@@ -1,19 +1,11 @@
 <template>
   <section class="landing-grid">
     <div class="landing-grid__title">
-      <h1>
-        Embracing Design for <br />
-        Humans, Robots & AI
-      </h1>
-      <!-- <img
-        class="line-image"
-        src="../assets/imgs/hello-world.png"
-        alt="circle over designing human-centred"
-      /> -->
+      <h1>Embracing Design for Humans, Robots & AI</h1>
     </div>
     <div class="landing-grid__content">
       <div class="content-item">
-        <p>Hi! My name is Elma. I am an User Interface Designer and User Researcher.</p>
+        <h2>UI Designer & User Researcher</h2>
       </div>
     </div>
   </section>
@@ -62,26 +54,25 @@
 @media (min-width: 1024px) {
   .landing-grid {
     display: grid;
-    grid-template-columns: 5% 1fr 5% 1fr 5%;
-    grid-template-rows: 200px auto 100px 1fr 100px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 250px auto 100px 1fr 200px;
     min-height: 100vh;
 
     &__title {
-      grid-column: 2 / span 3;
-      grid-row: 3;
+      grid-column: 2;
+      grid-row: 2;
     }
 
     &__content {
-      grid-column: 4;
+      grid-column: 2;
       grid-row-start: 4;
-      width: 350px;
+      width: 100%;
 
       .content-item {
         display: flex;
         flex-flow: column nowrap;
-        justify-content: end;
-        row-gap: 30px;
-        height: 100%;
+        justify-content: start;
+        align-items: center;
       }
     }
     .image-container {

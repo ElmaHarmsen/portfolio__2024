@@ -13,13 +13,20 @@ import { RouterView } from 'vue-router'
 h1 {
   font-size: 52px;
   line-height: 1.2;
-  font-family: 'NotoSans-Medium';
+  font-family: 'NotoSans-ExtraBold';
   text-transform: uppercase;
 }
 
 h2 {
   font-size: 16px;
   font-family: 'NotoSans-Bold';
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'NotoSans-Bold';
+  text-transform: uppercase;
 }
 
 p {
@@ -35,7 +42,11 @@ p {
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
   }
 
   p {

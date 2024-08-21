@@ -24,17 +24,12 @@ const scrollIntoView = (id) => {
     <div class="main-navigation__content-wrapper">
       <div class="content-item">
         <router-link to="/" @click="homeNavOpen = !homeNavOpen" @mouseover="homeNavOpen = true">
-          <h2>Home</h2>
-          <img
-            class="line-image"
-            src="../assets/imgs/menu-underline-home.png"
-            alt="line under navigation item home"
-          />
+          <h3>Home</h3>
         </router-link>
         <div v-if="homeNavOpen" class="content-item__navitems">
-          <p @click="scrollIntoView('experience-section')">{{ homeNavItemOne }}</p>
-          <p @click="scrollIntoView('about-section')">{{ homeNavItemTwo }}</p>
-          <p @click="scrollIntoView('contact-section')">{{ homeNavItemThree }}</p>
+          <h3 @click="scrollIntoView('exh3erience-section')">{{ homeNavItemOne }}</h3>
+          <h3 @click="scrollIntoView('about-section')">{{ homeNavItemTwo }}</h3>
+          <h3 @click="scrollIntoView('contact-section')">{{ homeNavItemThree }}</h3>
         </div>
       </div>
       <div class="content-item">
@@ -43,18 +38,21 @@ const scrollIntoView = (id) => {
           @click="caseNavOpen = !caseNavOpen"
           @mouseover="caseNavOpen = true"
         >
-          <h2>Cases</h2>
-          <img
-            class="line-image"
-            src="../assets/imgs/menu-underline-cases.png"
-            alt="line under navigation item cases"
-          />
+          <h3>Cases</h3>
         </router-link>
         <div v-if="caseNavOpen" class="content-item__navitems">
-          <p @click="scrollIntoView('daily-ui-section')">{{ caseNavItemOne }}</p>
-          <p @click="scrollIntoView('ux-project-section')">{{ caseNavItemTwo }}</p>
-          <p @click="scrollIntoView('research-section')">{{ caseNavItemThree }}</p>
+          <h3 @click="scrollIntoView('daily-ui-section')">{{ caseNavItemOne }}</h3>
+          <h3 @click="scrollIntoView('ux-h3roject-section')">{{ caseNavItemTwo }}</h3>
+          <h3 @click="scrollIntoView('research-section')">{{ caseNavItemThree }}</h3>
         </div>
+      </div>
+      <div class="content-item">
+        <a
+          href="https://drive.google.com/file/d/1UZjNtQ9nmxyYSvrw8UkutdDfxknvxHN2/view?usp=sharing"
+          target="_blank"
+        >
+          <h3>Curriculum Vitae</h3>
+        </a>
       </div>
     </div>
   </section>
@@ -64,34 +62,18 @@ const scrollIntoView = (id) => {
 .main-navigation {
   position: absolute;
   top: 40px;
-  right: 40px;
-
-  &__button {
-    cursor: pointer;
-    .image {
-      width: 40px;
-    }
-  }
+  width: 100%;
 
   &__content-wrapper {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    column-gap: 80px;
+    justify-content: center;
+    column-gap: 50px;
 
     .content-item {
       display: flex;
       flex-flow: column nowrap;
       row-gap: 20px;
-
-      h2 {
-        text-transform: uppercase;
-      }
-
-      .line-image {
-        width: 60px;
-        transform: translateX(-5px) translateY(-5px);
-      }
 
       &__navitems {
         position: absolute;
@@ -100,7 +82,7 @@ const scrollIntoView = (id) => {
         flex-flow: column nowrap;
         row-gap: 5px;
 
-        p {
+        h3 {
           cursor: pointer;
         }
       }

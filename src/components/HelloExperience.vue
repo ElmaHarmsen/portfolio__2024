@@ -66,8 +66,8 @@
 @media (min-width: 1024px) {
   .landing-grid {
     display: grid;
-    grid-template-columns: 5% 1fr 5% 1fr 5%;
-    grid-template-rows: 200px auto 100px 1fr 100px;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 250px auto 100px 1fr 200px;
     min-height: 100vh;
 
     &__title {
