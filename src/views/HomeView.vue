@@ -2,20 +2,18 @@
 import MainNavigation from '../components/MainNavigation.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import ExperienceSection from '../components/ExperienceSection.vue'
+import DailyUIShowcase from '../components/DailyUIShowcase.vue'
 import AboutSection from '../components/AboutSection.vue'
 import ContactSection from '../components/ContactSection.vue'
 </script>
 
 <template>
   <main>
-    <MainNavigation
-      homeNavItemOne="Selected Work"
-      homeNavItemTwo="About Me"
-      homeNavItemThree="Contact"
-    />
+    <MainNavigation />
     <HelloWorld />
-    <ExperienceSection />
     <AboutSection />
+    <ExperienceSection />
+    <DailyUIShowcase />
     <ContactSection />
   </main>
 </template>

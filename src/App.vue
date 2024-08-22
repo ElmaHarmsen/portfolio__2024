@@ -15,24 +15,27 @@ h1 {
   line-height: 1.2;
   font-family: 'NotoSans-ExtraBold';
   text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 h2 {
   font-size: 16px;
   font-family: 'NotoSans-Bold';
   text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 h3 {
   font-size: 16px;
   font-family: 'NotoSans-Bold';
   text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'NotoSans-Bold';
+  font-family: 'NotoSans-SemiBold';
   text-align: justify;
 }
 
@@ -50,7 +53,7 @@ p {
   }
 
   p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 </style>

@@ -67,7 +67,7 @@
   .landing-grid {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 250px auto 100px 1fr 200px;
+    grid-template-rows: 300px auto 100px 1fr 200px;
     min-height: 100vh;
 
     &__title {

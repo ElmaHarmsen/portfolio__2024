@@ -19,80 +19,76 @@
   font-style: italic;
 }
 
-.section-grid {
-  display: grid;
-  grid-template-columns: 15% 1fr 15%;
-  grid-template-rows: 150px auto 150px 1fr 150px;
-  min-height: 100vh;
+// .section-grid {
+//   display: grid;
+//   grid-template-columns: 15% 1fr 15%;
+//   grid-template-rows: 150px auto 150px 1fr 150px;
+//   min-height: 100vh;
 
-  &__title {
-    grid-column: 2;
-    grid-row-start: 2;
-    display: flex;
-    flex-flow: column nowrap;
-  }
+//   &__title {
+//     grid-column: 2;
+//     grid-row-start: 2;
+//     display: flex;
+//     flex-flow: column nowrap;
+//   }
 
-  &__content {
-    grid-column: 2;
-    grid-row-start: 4;
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    row-gap: 150px;
+//   &__content {
+//     grid-column: 2;
+//     grid-row-start: 4;
+//     width: 100%;
+//     display: flex;
+//     flex-flow: column nowrap;
+//     row-gap: 150px;
 
-    .content-item {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 30px;
+//     .content-item {
+//       display: flex;
+//       flex-flow: column nowrap;
+//       row-gap: 30px;
 
-      &__heading {
-        text-transform: uppercase;
-      }
-    }
+//       &__heading {
+//         text-transform: uppercase;
+//       }
+//     }
 
-    p {
-      text-align: justify;
-      background-color: var(--bg-white);
-    }
-  }
-}
+//     p {
+//       text-align: justify;
+//     }
+//   }
+// }
 
 @media (min-width: 1024px) {
   .section-grid {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 200px auto 150px 1fr 200px;
+    grid-template-rows: 8rem 1fr 8rem;
     min-height: 100vh;
-
-    &__title {
-      grid-column: 2;
-      grid-row-start: 2;
-    }
 
     &__content {
       grid-column: 2;
-      grid-row-start: 4;
+      grid-row: 2;
+      padding: 1.5rem;
       width: 100%;
       display: flex;
       flex-flow: column nowrap;
-      row-gap: 150px;
-      align-items: center;
+      justify-content: space-between;
+      row-gap: 2.5rem;
 
       .content-item {
         display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        row-gap: 30px;
-        width: 350px;
+        flex-flow: row nowrap;
+        justify-content: space-between;
 
         &__image {
           width: 350px;
         }
       }
 
+      .paragraph {
+        width: 300px;
+      }
+
       p {
         text-align: justify;
-        background-color: var(--bg-white);
       }
     }
   }
