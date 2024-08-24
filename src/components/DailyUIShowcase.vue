@@ -1,48 +1,138 @@
 <template>
-  <section class="section-grid" id="daily-ui-section">
-    <div class="section-grid__content bg-colour">
-      <div class="subitems-container">
-        <router-link to="/experience"><h2>See all work</h2></router-link>
-        <span class="nav-line"></span>
-      </div>
+  <section class="section-grid" id="experience-section">
+    <div class="section-grid__content">
       <div class="content-item">
-        <h2>Daily UI's</h2>
-        <div class="content-item__subitems">
-          <h2>dropdown</h2>
-          <h2>#27</h2>
+        <h1>
+          Daily UI <br />
+          Challenges
+        </h1>
+      </div>
+    </div>
+    <div class="section-grid__content container">
+      <div class="image-grid">
+        <div class="content-item image-grid__top">
+          <div class="image-container">
+            <img
+              class="image-container__image"
+              src="../assets/imgs/DailyUI27.png"
+              alt="Daily UI #27 Gradient picker dropdown"
+            />
+            <h2>Daily UI #27</h2>
+          </div>
+          <div class="image-container">
+            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
+            <h2>Daily UI #00</h2>
+          </div>
+        </div>
+        <div class="content-item image-grid__middle">
+          <div class="image-container">
+            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
+            <h2>Daily UI #00</h2>
+          </div>
+          <div class="image-container">
+            <img
+              class="image-container__image"
+              src="../assets/imgs/DailyUI27.png"
+              alt="Daily UI #27 Gradient picker dropdown"
+            />
+            <h2>Daily UI #27</h2>
+          </div>
+        </div>
+        <div class="content-item image-grid__bottom">
+          <div class="image-container">
+            <img
+              class="image-container__image"
+              src="../assets/imgs/DailyUI27.png"
+              alt="Daily UI #27 Gradient picker dropdown"
+            />
+            <h2>Daily UI #27</h2>
+          </div>
+          <div class="image-container">
+            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
+            <h2>Daily UI #00</h2>
+          </div>
         </div>
       </div>
     </div>
-    <div class="section-grid image-grid">
-      <img
-        class="content-item__image"
-        src="../assets/imgs/DailyUI27.png"
-        alt="Daily UI #27 Gradient picker dropdown"
-      />
-      <img class="content-item__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-    </div>
+    <div class="circle-element"></div>
   </section>
 </template>
 
 <style lang="scss" scoped>
-.bg-colour {
-  background-color: aquamarine;
+.circle-element {
+  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
+    radial-gradient(circle at bottom left, #fc6076, transparent);
+  opacity: 0.95;
+  width: 800px;
+  height: 800px;
+  border-radius: 300px 300px 300px 400px;
+  filter: blur(90px);
+  position: relative;
+  z-index: -1;
+  left: -2.5rem;
+  bottom: -10rem;
+  grid-row: 2 / span 2;
+  align-self: flex-end;
 }
 
-.content-item {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  column-gap: 5rem;
-
-  &__subitems {
-    display: flex;
-    flex-flow: row nowrap;
-    column-gap: 5rem;
+@media (min-width: 1024px) {
+  .nav-line {
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
   }
 
-  &__image {
-    width: 100%;
+  .section-grid {
+    grid-template-rows: 8rem calc(100vh - (2 * 8rem)) 8rem 1fr 8rem;
+
+    &__content {
+      align-self: flex-end;
+    }
+
+    .container {
+      grid-row: 4;
+      row-gap: 8rem;
+
+      .section-nav {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+        align-items: center;
+        padding: 0 0.25rem;
+      }
+
+      .image-grid {
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 8rem;
+        &__top,
+        &__middle,
+        &__bottom {
+          display: grid;
+          grid-template-rows: 1fr;
+          gap: 8rem;
+          padding: 0 0.25rem;
+
+          .image-container {
+            display: flex;
+            flex-flow: column nowrap;
+            row-gap: 1rem;
+            &__image {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+        &__top,
+        &__bottom {
+          grid-template-columns: calc(100% - 8rem - 65%) 65%;
+        }
+        &__middle {
+          grid-template-columns: 65% calc(100% - 8rem - 65%);
+        }
+      }
+    }
   }
 }
 </style>
