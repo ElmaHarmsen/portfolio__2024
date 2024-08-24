@@ -18,15 +18,21 @@ const scrollIntoView = (id) => {
       <span class="navigation-btn__line"></span>
     </div>
     <div class="navigation-small-nav" v-if="homeNavOpen">
-      <h2 @click="scrollIntoView('experience-section', (homeNavOpen = false))">Selected Works</h2>
-      <h2 @click="scrollIntoView('about-section', (homeNavOpen = false))">About Me</h2>
-      <a
-        href="https://drive.google.com/file/d/1UZjNtQ9nmxyYSvrw8UkutdDfxknvxHN2/view?usp=sharing"
-        target="_blank"
-        @click="homeNavOpen = false"
-      >
-        <h2>Curriculum Vitae</h2>
-      </a>
+      <router-link to="/experience" class="flex-container">
+        <h2>All works</h2>
+        <img class="arrow-img" src="../assets/imgs/arrow-forward.svg" alt="" />
+      </router-link>
+      <div class="flex-container-col">
+        <h2 @click="scrollIntoView('experience-section', (homeNavOpen = false))">Selected Works</h2>
+        <h2 @click="scrollIntoView('about-section', (homeNavOpen = false))">About Me</h2>
+        <a
+          href="https://drive.google.com/file/d/1UZjNtQ9nmxyYSvrw8UkutdDfxknvxHN2/view?usp=sharing"
+          target="_blank"
+          @click="homeNavOpen = false"
+        >
+          <h2>Curriculum Vitae</h2>
+        </a>
+      </div>
     </div>
     <div class="navigation-container">
       <div class="content-item">

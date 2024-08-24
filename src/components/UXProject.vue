@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="content-item">
-        <p>
+        <p class="p-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
           non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
           amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
@@ -85,16 +85,17 @@
     .content-item {
       display: flex;
       flex-flow: column nowrap;
-      row-gap: 8rem;
+      row-gap: 5.5rem;
 
-      .p-1 {
-        width: 35%;
-      }
-      .p-2 {
+      .p-1,
+      .p-2,
+      .p-3,
+      .p-4 {
         width: 80%;
       }
-      .p-3 {
-        width: 55%;
+
+      &__image {
+        width: 70%;
       }
 
       .container {
@@ -106,7 +107,7 @@
 
     .image-grid {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: column wrap;
     }
   }
   .container {
@@ -114,6 +115,37 @@
     display: flex;
     flex-flow: column nowrap;
     row-gap: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-grid {
+    &__content {
+      .content-item {
+        row-gap: 8rem;
+
+        .p-1 {
+          width: 75%;
+        }
+        .p-2 {
+          width: 40%;
+        }
+        .p-3 {
+          width: 50%;
+        }
+        .p-4 {
+          width: 100%;
+        }
+
+        &__image {
+          width: 350px;
+        }
+      }
+
+      .image-grid {
+        flex-flow: row wrap;
+      }
+    }
   }
 }
 </style>

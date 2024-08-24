@@ -17,37 +17,6 @@
 </template>
 
 <style lang="scss" scoped>
-.landing-grid {
-  display: grid;
-  grid-template-columns: 2rem calc(100% - (2 * 2rem)) 2rem;
-  grid-template-rows: 8rem 1fr 8rem;
-  min-height: 100vh;
-
-  &__content {
-    grid-column: 2;
-    grid-row: 2;
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: end;
-
-    .content-item {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 2.5rem;
-      justify-content: start;
-    }
-
-    .subitems-container {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 2rem;
-      justify-content: start;
-      padding: 0 0.25rem;
-    }
-  }
-}
-
 .circle-element {
   background: radial-gradient(ellipse at top right, #ff9a44, transparent),
     radial-gradient(circle at bottom left, #fc6076, transparent);
@@ -63,19 +32,6 @@
 }
 
 @media (min-width: 1024px) {
-  .landing-grid {
-    grid-template-columns: 10% 1fr 10%;
-
-    &__content {
-      padding: 2.5rem;
-
-      .subitems-container {
-        flex-flow: row nowrap;
-        column-gap: 5rem;
-      }
-    }
-  }
-
   .circle-element {
     width: 600px;
     height: 600px;

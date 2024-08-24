@@ -75,14 +75,10 @@
       flex-flow: column nowrap;
       row-gap: 8rem;
 
-      .p-1 {
-        width: 40%;
-      }
-      .p-2 {
-        width: 65%;
-      }
+      .p-1,
+      .p-2,
       .p-3 {
-        width: 45%;
+        width: 80%;
       }
 
       &__image {
@@ -93,9 +89,35 @@
 
     .image-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
-      gap: 1rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 2.5rem;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-grid {
+    .container {
+      .content-item {
+        row-gap: 8rem;
+
+        .p-1 {
+          width: 75%;
+        }
+        .p-2 {
+          width: 40%;
+        }
+        .p-3 {
+          width: 50%;
+        }
+      }
+
+      .image-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+      }
     }
   }
 }
