@@ -1,91 +1,69 @@
 <template>
   <section class="landing-grid">
-    <div class="landing-grid__title">
-      <h1>
-        Designing <br />
-        Human-Centred
-      </h1>
+    <div class="landing-grid__content">
+      <div class="content-item">
+        <h1>
+          Designing <br />
+          Human-Centred
+        </h1>
+        <div class="subitems-container">
+          <h2>The full showcase of recent work</h2>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
-.line-image {
-  width: 30px;
-  transform: translateX(-50px) translateY(10px);
-  position: absolute;
-}
-
-.landing-grid {
-  display: grid;
-  grid-template-columns: 35% 1fr 5%;
-  grid-template-rows: 150px auto 150px 1fr 40px;
-  height: 100vh;
-
-  &__title {
-    grid-column: 2;
-    grid-row-start: 2;
-  }
-
-  &__content {
-    grid-column: 2;
-    grid-row-start: 4;
-    width: 350px;
-
-    .content-item {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 40px;
-      justify-content: end;
-      height: 100%;
-
-      p {
-        text-align: justify;
-        background-color: var(--bg-white);
-      }
-    }
-  }
-}
-
-.content-item {
-  &__container {
-    display: flex;
-    flex-flow: column nowrap;
-
-    .long-image {
-      position: absolute;
-      z-index: 1;
-      right: 0;
-      width: calc(30% + 350px);
-      height: 30px;
-      transform: translateY(5px);
-    }
-  }
-}
-
 @media (min-width: 1024px) {
+  .circle-element {
+    background: radial-gradient(ellipse at top right, #ff9a44, transparent),
+      radial-gradient(circle at bottom left, #fc6076, transparent);
+    opacity: 0.95;
+    width: 600px;
+    height: 600px;
+    border-radius: 300px 400px 300px 400px;
+    filter: blur(90px);
+    position: absolute;
+    z-index: -1;
+    bottom: 1.5rem;
+    left: 20%;
+  }
+
   .landing-grid {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 300px auto 100px 1fr 200px;
+    grid-template-rows: 8rem 1fr 8rem;
     min-height: 100vh;
 
-    &__title {
-      grid-column: 2 / span 3;
-      grid-row: 3;
-    }
-
     &__content {
-      grid-column: 4;
-      grid-row-start: 4;
-      width: 350px;
+      grid-column: 2;
+      grid-row: 2;
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: end;
+      padding: 2.5rem;
 
       .content-item {
         display: flex;
         flex-flow: column nowrap;
-        justify-content: end;
-        row-gap: 30px;
-        height: 100%;
+        row-gap: 2.5rem;
+        justify-content: start;
+      }
+
+      .header-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+      }
+
+      .subitems-container {
+        display: flex;
+        flex-flow: row nowrap;
+        column-gap: 5rem;
+        justify-content: start;
+        padding: 0 0.25rem;
       }
     }
     .image-container {

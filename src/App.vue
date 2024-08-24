@@ -28,8 +28,6 @@ h2 {
 h3 {
   font-size: 16px;
   font-family: 'NotoSans-Bold';
-  text-transform: uppercase;
-  font-variant: small-caps;
 }
 
 p {
@@ -49,7 +47,7 @@ p {
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   p {

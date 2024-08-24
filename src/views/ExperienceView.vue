@@ -1,5 +1,5 @@
 <script setup>
-import MainNavigation from '../components/MainNavigation.vue'
+import ExperienceNavigation from '../components/ExperienceNavigation.vue'
 import HelloExperience from '../components/HelloExperience.vue'
 import DailyUIShowcase from '../components/DailyUIShowcase.vue'
 import UXProject from '../components/UXProject.vue'
@@ -8,14 +8,10 @@ import RobotAIResearch from '../components/RobotAIResearch.vue'
 
 <template>
   <main>
-    <MainNavigation
-      caseNavItemOne="Daily UI"
-      caseNavItemTwo="UX Case"
-      caseNavItemThree="Research"
-    />
+    <ExperienceNavigation />
     <HelloExperience />
-    <DailyUIShowcase />
     <UXProject />
+    <DailyUIShowcase />
     <RobotAIResearch />
   </main>
 </template>

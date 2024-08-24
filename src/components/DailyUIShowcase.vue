@@ -1,6 +1,10 @@
 <template>
   <section class="section-grid" id="daily-ui-section">
     <div class="section-grid__content bg-colour">
+      <div class="subitems-container">
+        <router-link to="/experience"><h2>See all work</h2></router-link>
+        <span class="nav-line"></span>
+      </div>
       <div class="content-item">
         <h2>Daily UI's</h2>
         <div class="content-item__subitems">
@@ -8,14 +12,14 @@
           <h2>#27</h2>
         </div>
       </div>
-      <div class="content-item image-grid">
-        <img
-          class="content-item__image"
-          src="../assets/imgs/DailyUI27.png"
-          alt="Daily UI #27 Gradient picker dropdown"
-        />
-        <img class="content-item__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-      </div>
+    </div>
+    <div class="section-grid image-grid">
+      <img
+        class="content-item__image"
+        src="../assets/imgs/DailyUI27.png"
+        alt="Daily UI #27 Gradient picker dropdown"
+      />
+      <img class="content-item__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
     </div>
   </section>
 </template>
@@ -40,12 +44,5 @@
   &__image {
     width: 100%;
   }
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 1fr 1fr;
-  gap: 2.5rem;
 }
 </style>

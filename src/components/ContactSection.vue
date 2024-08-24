@@ -1,99 +1,59 @@
 <template>
-  <section class="footer-grid" id="contact-section">
-    <div class="footer-grid__title">
+  <section class="section-grid" id="contact-section">
+    <div class="section-grid__content">
       <h1>Say Hello</h1>
-      <!-- <img
-        class="say-hello-image"
-        src="../assets/imgs/say-hello.png"
-        alt="squigly line under say hello"
-      /> -->
-    </div>
-    <div class="footer-grid__content">
-      <div class="content-item">
-        <!-- <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
-          <div class="container">
-            <img class="line-image" src="../assets/imgs/contact-links.png" alt="list item line" />
-            <p>linkedin/elma-harmsen</p>
-          </div>
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1UZjNtQ9nmxyYSvrw8UkutdDfxknvxHN2/view?usp=sharing"
-          target="_blank"
-        >
-          <div class="container">
-            <img class="line-image" src="../assets/imgs/contact-links.png" alt="list item line" />
-            <p>drive.google/resume</p>
-          </div>
-        </a> -->
-        <div class="container">
-          <p>elmaharmsen01@gmail.com</p>
+      <div class="subitems-container">
+        <div class="flex-container">
+          <h3>elmaharmsen01<span class="h2-text">@gmail.com</span></h3>
         </div>
+        <span class="nav-line"></span>
       </div>
     </div>
+    <div class="section-grid__content socials-container">
+      <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank"
+        ><img class="socials-container__image" src="../assets/imgs/linkedin.png" alt=""
+      /></a>
+      <a href="https://github.com/ElmaHarmsen" target="_blank"
+        ><img class="socials-container__image" src="../assets/imgs/github.png" alt=""
+      /></a>
+    </div>
+    <!--IDEA: 4 colour gradient circles spread over the viewport width-->
   </section>
 </template>
 
 <style lang="scss" scoped>
-.line-image {
-  width: 20px;
-  // transform: translateX(-50px) translateY(10px);
-  // position: absolute;
-}
-
-.say-hello-image {
-  width: 100%;
-  // transform: translateX(-15px) translateY(80px);
-  // position: absolute;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 15% 1fr 15%;
-  grid-template-rows: 150px auto 150px 1fr 150px;
-
-  &__content {
-    grid-column: 2;
-    grid-row-start: 2;
-
-    .container {
-      display: flex;
-      flex-flow: column nowrap;
-      row-gap: 10px;
-    }
-  }
-}
-
 @media (min-width: 1024px) {
-  .line-image {
-    width: 30px;
-    transform: translateX(-50px) translateY(10px);
-    position: absolute;
-  }
+  .section-grid {
+    &__content {
+      align-self: flex-end;
 
-  .say-hello-image {
-    width: 450px;
-    transform: translateX(20px) translateY(90px);
-    position: absolute;
-  }
+      .subitems-container {
+        display: flex;
+        flex-flow: row nowrap;
+        column-gap: 1rem;
+        justify-content: start;
+        align-items: center;
+        padding: 0 0.25rem;
 
-  .footer-grid {
-    display: grid;
-    grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 200px auto 50px 1fr 200px;
-    min-height: 100vh;
-
-    &__title {
-      grid-column: 2;
-      grid-row-start: 2;
+        .h2-text {
+          font-size: 20px;
+          font-family: 'NotoSans-Bold';
+          text-transform: uppercase;
+          font-variant: small-caps;
+        }
+      }
     }
 
-    &__content {
-      grid-column: 2;
-      grid-row-start: 4;
+    .socials-container {
+      grid-row: 3;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: end;
+      column-gap: 2.5rem;
+      padding: 1.5rem 1.75rem;
 
-      .container {
-        display: flex;
-        flex-flow: column nowrap;
+      &__image {
+        width: 2.5rem;
       }
     }
   }

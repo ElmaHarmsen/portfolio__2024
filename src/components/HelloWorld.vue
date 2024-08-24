@@ -14,45 +14,6 @@
 </template>
 
 <style lang="scss" scoped>
-// .line-image {
-//   width: 700px;
-//   transform: translateX(-80px) translateY(-230px);
-//   position: absolute;
-// }
-
-// .landing-grid {
-//   display: grid;
-//   grid-template-columns: 5% 1fr 5%;
-//   grid-template-rows: 200px auto 100px 1fr 100px;
-//   min-height: 100vh;
-
-//   &__title {
-//     grid-column: 2;
-//     grid-row-start: 3;
-//   }
-
-//   &__content {
-//     grid-column: 2;
-//     grid-row-start: 4;
-//     width: 200px;
-//     background-color: aquamarine;
-
-//     .content-item {
-//       display: flex;
-//       flex-flow: column nowrap;
-//       justify-content: end;
-//       row-gap: 30px;
-//     }
-//   }
-//   .image-container {
-//     position: absolute;
-//     right: calc(30% + 350px + 100px);
-//     grid-column: 2;
-//     grid-row: 3 / span 3;
-//     align-self: end;
-//   }
-// }
-
 @media (min-width: 1024px) {
   .circle-element {
     background: radial-gradient(ellipse at top right, #ff9a44, transparent),
@@ -81,13 +42,6 @@
       display: flex;
       flex-flow: column nowrap;
       justify-content: end;
-      // background-image: linear-gradient(
-      //   to top,
-      //   #c1dfc4 0%,
-      //   #deecdd 100%
-      // );
-      // background: radial-gradient(ellipse at top, #e66465, transparent),
-      //   radial-gradient(ellipse at bottom, #4d9f0c, transparent);
       padding: 2.5rem;
 
       .content-item {
@@ -95,7 +49,6 @@
         flex-flow: column nowrap;
         row-gap: 2.5rem;
         justify-content: start;
-        // backdrop-filter: blur(10px);
       }
 
       .header-container {
@@ -109,6 +62,7 @@
         flex-flow: row nowrap;
         column-gap: 5rem;
         justify-content: start;
+        padding: 0 0.25rem;
       }
     }
     .image-container {
