@@ -34,51 +34,17 @@
       </div>
     </div>
     <div class="circle-element"></div>
-    <!-- <div class="circle-element-2"></div> -->
   </section>
 </template>
 
 <style lang="scss" scoped>
-.circle-element {
-  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-    radial-gradient(circle at bottom left, #fc6076, transparent);
-  opacity: 0.95;
-  width: 400px;
-  height: 400px;
-  border-radius: 250px 300px 250px 300px;
-  filter: blur(90px);
-  position: relative;
-  z-index: -1;
-  left: 2.5rem;
-  bottom: 2.5rem;
-  grid-row: 2 / span 2;
-  align-self: flex-end;
-}
-
-.circle-element-2 {
-  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-    radial-gradient(circle at bottom left, #fc6076, transparent);
-  opacity: 0.95;
-  width: 300px;
-  height: 300px;
-  border-radius: 350px 400px 350px 400px;
-  filter: blur(90px);
-  position: relative;
-  z-index: -1;
-  right: 10%;
-  top: -8rem;
-  grid-row: 4;
-  grid-column: 2 / span 2;
-  justify-self: end;
-  align-self: start;
-}
-
 .section-grid {
   grid-template-rows: 8rem calc(100vh - (2 * 8rem)) 8rem 1fr 8rem;
 
   &__content {
     align-self: flex-end;
   }
+
   .paragraph {
     grid-row: 4;
     align-self: start;
@@ -87,18 +53,59 @@
     .content-item {
       display: flex;
       flex-flow: column nowrap;
-      row-gap: 8rem;
+      row-gap: 5.5rem;
 
-      .p-1 {
-        width: 75%;
-      }
-      .p-2 {
-        width: 40%;
-      }
+      .p-1,
+      .p-2,
       .p-3 {
-        width: 50%;
+        width: 85%;
       }
     }
+  }
+}
+
+.circle-element {
+  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
+    radial-gradient(circle at bottom left, #fc6076, transparent);
+  opacity: 0.95;
+  width: 350px;
+  height: 350px;
+  border-radius: 200px 250px 200px 250px;
+  filter: blur(60px);
+  position: relative;
+  z-index: -1;
+  left: -2rem;
+  bottom: 2rem;
+  grid-row: 2 / span 2;
+  align-self: flex-end;
+}
+
+@media (min-width: 1024px) {
+  .section-grid {
+    .paragraph {
+      .content-item {
+        row-gap: 8rem;
+
+        .p-1 {
+          width: 75%;
+        }
+        .p-2 {
+          width: 40%;
+        }
+        .p-3 {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .circle-element {
+    width: 400px;
+    height: 400px;
+    border-radius: 250px 300px 250px 300px;
+    filter: blur(90px);
+    left: 2.5rem;
+    bottom: 2.5rem;
   }
 }
 </style>
