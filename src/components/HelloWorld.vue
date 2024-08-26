@@ -12,33 +12,64 @@
         </div>
       </div>
     </div>
-    <div class="circle-element"></div>
+    <div class="circle-container">
+      <div class="circle-element circle-1"></div>
+      <div class="circle-element circle-2"></div>
+    </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
-.circle-element {
-  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-    radial-gradient(circle at bottom left, #fc6076, transparent);
-  opacity: 0.95;
-  width: 400px;
-  height: 400px;
-  border-radius: 300px 250px 300px 250px;
-  filter: blur(70px);
-  position: absolute;
-  z-index: -1;
-  bottom: 5.5rem;
-  left: 1%;
+.circle-container {
+  .circle-element {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    position: absolute;
+  }
+
+  .circle-1 {
+    // background: radial-gradient(circle at 50% 50%, #d4fc79, transparent);
+    background-color: #d4fc79;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+    filter: blur(0);
+    z-index: -2;
+    opacity: 0.95;
+  }
+
+  .circle-2 {
+    // background: radial-gradient(circle at 50% 50%, #96e6a1, transparent);
+    background-color: #96e6a1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    filter: blur(0);
+    z-index: -1;
+    opacity: 0.55;
+  }
 }
 
 @media (min-width: 1024px) {
-  .circle-element {
-    width: 600px;
-    height: 600px;
-    border-radius: 300px 400px 300px 400px;
-    filter: blur(90px);
-    bottom: 1.5rem;
-    left: 20%;
+  .circle-container {
+    .circle-element {
+      width: 600px;
+      height: 600px;
+      border-radius: 100%;
+    }
+
+    .circle-1 {
+      left: 22%;
+      transform: unset;
+      bottom: 2.5rem;
+    }
+
+    .circle-2 {
+      left: 30%;
+      transform: unset;
+      bottom: 0.5rem;
+    }
   }
 }
 </style>

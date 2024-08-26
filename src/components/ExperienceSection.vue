@@ -58,7 +58,9 @@
         </div>
       </div>
     </div>
-    <div class="circle-element"></div>
+    <div class="circle-element circle-1"></div>
+    <div class="circle-element circle-2"></div>
+    <div class="circle-element circle-3"></div>
   </section>
 </template>
 
@@ -120,19 +122,41 @@
 }
 
 .circle-element {
-  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-    radial-gradient(circle at bottom left, #fc6076, transparent);
   opacity: 0.95;
-  width: 300px;
-  height: 300px;
-  border-radius: 300px 300px 300px 400px;
-  filter: blur(90px);
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
   position: relative;
   z-index: -1;
-  left: -2.5rem;
-  bottom: -10rem;
   grid-row: 2 / span 2;
+  grid-column: 2;
   align-self: flex-end;
+}
+
+.circle-1 {
+  background: radial-gradient(circle at 50% 50%, #24d292, transparent);
+  left: 50%;
+  transform: translateX(calc(-50% - 10%));
+  bottom: 4rem;
+  filter: blur(50px);
+}
+
+.circle-2 {
+  background: radial-gradient(circle at 50% 50%, #d558c8, transparent);
+  left: 50%;
+  transform: translateX(calc(-50% + 5%));
+  bottom: 0;
+  filter: blur(100px);
+}
+
+.circle-3 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at 50% 50%, #24d292, transparent);
+  left: 50%;
+  transform: translateX(calc(-50% - 20%));
+  bottom: -5rem;
+  filter: blur(100px);
 }
 
 @media (min-width: 1024px) {
@@ -194,19 +218,33 @@
   }
 
   .circle-element {
-    background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-      radial-gradient(circle at bottom left, #fc6076, transparent);
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
     opacity: 0.95;
-    width: 800px;
-    height: 800px;
-    border-radius: 300px 300px 300px 400px;
-    filter: blur(90px);
-    position: relative;
-    z-index: -1;
-    left: -2.5rem;
+  }
+
+  .circle-1 {
+    left: -10%;
+    transform: unset;
+    bottom: 0;
+    filter: blur(50px);
+  }
+
+  .circle-2 {
+    left: 5%;
+    transform: unset;
+    bottom: -2.5rem;
+    filter: blur(100px);
+  }
+
+  .circle-3 {
+    width: 500px;
+    height: 500px;
+    left: -7.5%;
+    transform: unset;
     bottom: -10rem;
-    grid-row: 2 / span 2;
-    align-self: flex-end;
+    filter: blur(100px);
   }
 }
 </style>

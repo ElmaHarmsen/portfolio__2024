@@ -33,7 +33,8 @@
         </p>
       </div>
     </div>
-    <div class="circle-element"></div>
+    <div class="circle-element circle-1"></div>
+    <div class="circle-element circle-2"></div>
   </section>
 </template>
 
@@ -65,19 +66,32 @@
 }
 
 .circle-element {
-  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-    radial-gradient(circle at bottom left, #fc6076, transparent);
   opacity: 0.95;
   width: 350px;
   height: 350px;
-  border-radius: 200px 250px 200px 250px;
-  filter: blur(60px);
+  border-radius: 100%;
   position: relative;
-  z-index: -1;
-  left: -2rem;
-  bottom: 2rem;
   grid-row: 2 / span 2;
+  grid-column: 2;
   align-self: flex-end;
+}
+
+.circle-1 {
+  background: radial-gradient(circle at 50% 50%, #16a085, transparent);
+  left: 50%;
+  transform: translateX(calc(-50% - 10%));
+  bottom: 4rem;
+  filter: blur(50px);
+  z-index: -2;
+}
+
+.circle-2 {
+  background: radial-gradient(circle at 50% 50%, #f4d03f, transparent);
+  left: 50%;
+  transform: translateX(calc(-50% - 5%));
+  bottom: 0;
+  filter: blur(100px);
+  z-index: -1;
 }
 
 @media (min-width: 1024px) {
@@ -100,12 +114,24 @@
   }
 
   .circle-element {
-    width: 400px;
-    height: 400px;
-    border-radius: 250px 300px 250px 300px;
-    filter: blur(90px);
-    left: 2.5rem;
-    bottom: 2.5rem;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    opacity: 1;
+  }
+
+  .circle-1 {
+    left: -5%;
+    transform: unset;
+    bottom: 0;
+    filter: blur(0px);
+  }
+
+  .circle-2 {
+    left: -0%;
+    transform: unset;
+    bottom: -2.5rem;
+    filter: blur(0px);
   }
 }
 </style>
