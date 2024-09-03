@@ -12,64 +12,54 @@
         </div>
       </div>
     </div>
-    <div class="circle-container">
-      <div class="circle-element circle-1"></div>
-      <div class="circle-element circle-2"></div>
-    </div>
+    <div class="circle-element circle-1"></div>
+    <div class="circle-element circle-2"></div>
   </section>
 </template>
 
 <style lang="scss" scoped>
-.circle-container {
-  .circle-element {
-    width: 350px;
-    height: 350px;
-    border-radius: 100%;
-    position: absolute;
-  }
+.circle-element {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: absolute;
+}
 
-  .circle-1 {
-    // background: radial-gradient(circle at 50% 50%, #d4fc79, transparent);
-    background-color: #d4fc79;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 25%;
-    filter: blur(0);
-    z-index: -2;
-    opacity: 0.95;
-  }
+.circle-1 {
+  background-color: #d4fc79;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15rem;
+  z-index: -2;
+  opacity: 0.95;
+}
 
-  .circle-2 {
-    // background: radial-gradient(circle at 50% 50%, #96e6a1, transparent);
-    background-color: #96e6a1;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10%;
-    filter: blur(0);
-    z-index: -1;
-    opacity: 0.55;
-  }
+.circle-2 {
+  background-color: #96e6a1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5rem;
+  z-index: -1;
+  opacity: 0.55;
 }
 
 @media (min-width: 1024px) {
-  .circle-container {
-    .circle-element {
-      width: 600px;
-      height: 600px;
-      border-radius: 100%;
-    }
+  .circle-element {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+  }
 
-    .circle-1 {
-      left: 22%;
-      transform: unset;
-      bottom: 2.5rem;
-    }
+  .circle-1 {
+    left: 50%;
+    transform: translateX(-75%);
+    bottom: 2.5rem;
+  }
 
-    .circle-2 {
-      left: 30%;
-      transform: unset;
-      bottom: 0.5rem;
-    }
+  .circle-2 {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
   }
 }
 </style>

@@ -77,21 +77,21 @@
 }
 
 .circle-1 {
-  background: radial-gradient(circle at 50% 50%, #16a085, transparent);
+  background-color: #ee9ca7;
   left: 50%;
   transform: translateX(calc(-50% - 10%));
   bottom: 4rem;
-  filter: blur(50px);
   z-index: -2;
+  opacity: 0.55;
 }
 
 .circle-2 {
-  background: radial-gradient(circle at 50% 50%, #f4d03f, transparent);
+  background-color: #ffdde1;
   left: 50%;
   transform: translateX(calc(-50% - 5%));
   bottom: 0;
-  filter: blur(100px);
   z-index: -1;
+  opacity: 0.55;
 }
 
 @media (min-width: 1024px) {
@@ -114,24 +114,21 @@
   }
 
   .circle-element {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 100%;
-    opacity: 1;
   }
 
   .circle-1 {
-    left: -5%;
+    left: -8.5%;
     transform: unset;
-    bottom: 0;
-    filter: blur(0px);
+    bottom: -1.5rem;
   }
 
   .circle-2 {
-    left: -0%;
+    left: -2.5%;
     transform: unset;
-    bottom: -2.5rem;
-    filter: blur(0px);
+    bottom: -3.5rem;
   }
 }
 </style>

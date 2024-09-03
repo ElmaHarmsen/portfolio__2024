@@ -72,6 +72,8 @@
         </p>
       </div>
     </div>
+    <div class="circle-element circle-1"></div>
+    <div class="circle-element circle-2"></div>
   </section>
 </template>
 
@@ -118,6 +120,35 @@
   }
 }
 
+.circle-element {
+  opacity: 0.95;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: relative;
+  grid-row: 2 / span 2;
+  grid-column: 2;
+  align-self: flex-end;
+}
+
+.circle-1 {
+  background-color: #e3eeff;
+  left: 50%;
+  transform: translateX(calc(-50% - 10%));
+  bottom: 4rem;
+  z-index: -2;
+  opacity: 0.55;
+}
+
+.circle-2 {
+  background-color: #f3e7e9;
+  left: 50%;
+  transform: translateX(calc(-50% - 5%));
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.55;
+}
+
 @media (min-width: 1024px) {
   .section-grid {
     &__content {
@@ -146,6 +177,24 @@
         flex-flow: row wrap;
       }
     }
+  }
+
+  .circle-element {
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+  }
+
+  .circle-1 {
+    left: -10%;
+    transform: unset;
+    bottom: -1rem;
+  }
+
+  .circle-2 {
+    left: -5%;
+    transform: unset;
+    bottom: -1.5rem;
   }
 }
 </style>

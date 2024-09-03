@@ -1,5 +1,5 @@
 <template>
-  <section class="section-grid" id="experience-section">
+  <section class="section-grid" id="daily-ui-section">
     <div class="section-grid__content">
       <div class="content-item">
         <h1>

@@ -134,29 +134,26 @@
 }
 
 .circle-1 {
-  background: radial-gradient(circle at 50% 50%, #24d292, transparent);
+  background-color: #396afc;
   left: 50%;
   transform: translateX(calc(-50% - 10%));
   bottom: 4rem;
-  filter: blur(50px);
 }
 
 .circle-2 {
-  background: radial-gradient(circle at 50% 50%, #d558c8, transparent);
+  background-color: #2948ff;
   left: 50%;
   transform: translateX(calc(-50% + 5%));
   bottom: 0;
-  filter: blur(100px);
 }
 
 .circle-3 {
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle at 50% 50%, #24d292, transparent);
+  background-color: #396afc;
   left: 50%;
   transform: translateX(calc(-50% - 20%));
   bottom: -5rem;
-  filter: blur(100px);
 }
 
 @media (min-width: 1024px) {
@@ -218,33 +215,35 @@
   }
 
   .circle-element {
-    width: 550px;
-    height: 550px;
+    width: 600px;
+    height: 600px;
     border-radius: 100%;
-    opacity: 0.95;
   }
 
   .circle-1 {
     left: -10%;
     transform: unset;
     bottom: 0;
-    filter: blur(50px);
+    z-index: -3;
+    opacity: 0.55;
   }
 
   .circle-2 {
-    left: 5%;
+    left: -1%;
     transform: unset;
-    bottom: -2.5rem;
-    filter: blur(100px);
+    bottom: -2rem;
+    z-index: -1;
+    opacity: 0.55;
   }
 
   .circle-3 {
-    width: 500px;
-    height: 500px;
-    left: -7.5%;
+    width: 550px;
+    height: 550px;
+    left: -5%;
     transform: unset;
-    bottom: -10rem;
-    filter: blur(100px);
+    bottom: -8rem;
+    z-index: -2;
+    opacity: 0.55;
   }
 }
 </style>
