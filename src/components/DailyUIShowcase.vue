@@ -10,14 +10,19 @@
     </div>
     <div class="section-grid__content container">
       <div class="content-item section-nav">
-        <router-link to="/experience"><h2>See all works</h2></router-link>
-        <span class="nav-line"></span>
+        <p class="p-1">
+          The Daily UI challenges are a series of 100 tasks given to design UI elements or pages.
+          The Daily UI’s have been keeping my design skills sharp after my graduation from Human
+          Computer Interaction earlier this year. To me, the Daily UI’s have been a true inspiration
+          to experiment with different colours, interactions and explore the importance of
+          accessibility when it comes to UI. <br />
+        </p>
       </div>
       <div class="image-grid">
         <div class="content-item image-grid__top">
           <div class="image-container">
             <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>Daily UI #00</h2>
+            <h2>#00 Smth</h2>
           </div>
           <div class="image-container">
             <img
@@ -25,7 +30,7 @@
               src="../assets/imgs/DailyUI27.png"
               alt="Daily UI #27 Gradient picker dropdown"
             />
-            <h2>Daily UI #27</h2>
+            <h2>#27 Smth</h2>
           </div>
         </div>
         <div class="content-item image-grid__middle">
@@ -35,17 +40,17 @@
               src="../assets/imgs/DailyUI27.png"
               alt="Daily UI #27 Gradient picker dropdown"
             />
-            <h2>Daily UI #27</h2>
+            <h2>#27 Smth</h2>
           </div>
           <div class="image-container">
             <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>Daily UI #00</h2>
+            <h2>#00 Smth</h2>
           </div>
         </div>
         <div class="content-item image-grid__bottom">
           <div class="image-container">
             <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>Daily UI #00</h2>
+            <h2>#00 Smth</h2>
           </div>
           <div class="image-container">
             <img
@@ -53,12 +58,13 @@
               src="../assets/imgs/DailyUI27.png"
               alt="Daily UI #27 Gradient picker dropdown"
             />
-            <h2>Daily UI #27</h2>
+            <h2>#27 Smth</h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="circle-element"></div>
+    <!-- <div class="circle-element circle-1"></div>
+    <div class="circle-element circle-2"></div> -->
   </section>
 </template>
 
@@ -81,11 +87,8 @@
       align-items: center;
       padding: 0 0.25rem;
 
-      .nav-line {
-        display: none;
-        width: 100%;
-        height: 0.5rem;
-        background-color: black;
+      .p-1 {
+        width: 85%;
       }
     }
 
@@ -120,19 +123,32 @@
 }
 
 .circle-element {
-  background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-    radial-gradient(circle at bottom left, #fc6076, transparent);
   opacity: 0.95;
-  width: 300px;
-  height: 300px;
-  border-radius: 300px 300px 300px 400px;
-  filter: blur(90px);
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
   position: relative;
-  z-index: -1;
-  left: -2.5rem;
-  bottom: -10rem;
   grid-row: 2 / span 2;
+  grid-column: 2;
   align-self: flex-end;
+}
+
+.circle-1 {
+  background-color: #f8b500;
+  left: 50%;
+  transform: translateX(calc(-50% - 10%));
+  bottom: 4rem;
+  z-index: -2;
+  opacity: 0.55;
+}
+
+.circle-2 {
+  background-color: #fceabb;
+  left: 50%;
+  transform: translateX(calc(-50% - 5%));
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.55;
 }
 
 @media (min-width: 1024px) {
@@ -154,8 +170,8 @@
         align-items: center;
         padding: 0 0.25rem;
 
-        .nav-line {
-          display: block;
+        .p-1 {
+          width: 65%;
         }
       }
 
@@ -194,19 +210,21 @@
   }
 
   .circle-element {
-    background: radial-gradient(ellipse at top right, #ff9a44, transparent),
-      radial-gradient(circle at bottom left, #fc6076, transparent);
-    opacity: 0.95;
-    width: 800px;
-    height: 800px;
-    border-radius: 300px 300px 300px 400px;
-    filter: blur(90px);
-    position: relative;
-    z-index: -1;
-    left: -2.5rem;
-    bottom: -10rem;
-    grid-row: 2 / span 2;
-    align-self: flex-end;
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+  }
+
+  .circle-1 {
+    left: -10%;
+    transform: unset;
+    bottom: -1rem;
+  }
+
+  .circle-2 {
+    left: -5%;
+    transform: unset;
+    bottom: -1.5rem;
   }
 }
 </style>

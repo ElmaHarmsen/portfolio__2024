@@ -58,9 +58,9 @@
         </div>
       </div>
     </div>
-    <div class="circle-element circle-1"></div>
+    <!-- <div class="circle-element circle-1"></div>
     <div class="circle-element circle-2"></div>
-    <div class="circle-element circle-3"></div>
+    <div class="circle-element circle-3"></div> -->
   </section>
 </template>
 
@@ -122,38 +122,42 @@
 }
 
 .circle-element {
-  opacity: 0.95;
   width: 350px;
   height: 350px;
   border-radius: 100%;
   position: relative;
-  z-index: -1;
   grid-row: 2 / span 2;
   grid-column: 2;
   align-self: flex-end;
 }
 
 .circle-1 {
-  background-color: #396afc;
+  background-color: #2948ff;
   left: 50%;
-  transform: translateX(calc(-50% - 10%));
+  transform: translateX(calc(-50% - 15%));
   bottom: 4rem;
+  z-index: -3;
+  opacity: 0.55;
 }
 
 .circle-2 {
   background-color: #2948ff;
   left: 50%;
-  transform: translateX(calc(-50% + 5%));
+  transform: translateX(calc(-50% - 5%));
   bottom: 0;
+  z-index: -1;
+  opacity: 0.55;
 }
 
 .circle-3 {
-  width: 300px;
-  height: 300px;
-  background-color: #396afc;
+  width: 325px;
+  height: 325px;
+  background-color: #2948ff;
   left: 50%;
   transform: translateX(calc(-50% - 20%));
   bottom: -5rem;
+  z-index: -2;
+  opacity: 0.55;
 }
 
 @media (min-width: 1024px) {

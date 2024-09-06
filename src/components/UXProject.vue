@@ -11,69 +11,67 @@
     <div class="section-grid__content container">
       <div class="content-item">
         <p class="p-1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
-          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
-          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
-          porttitor fermentum lectus eu volutpat. In sit amet tempor arcu. Vivamus lacus lorem,
-          vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
-          quis, vehicula pharetra diam. Aenean id nulla tellus.
+          This UX project was conducted a team endeavour as part of my studies in Human Computer
+          Interaction at the Uppsala University. The project’s objective was to design a system that
+          could support sustainability and reduce waste in fast fashion. <br />
         </p>
         <p class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
-          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
-          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
-          porttitor fermentum lectus eu volutpat. In sit amet tempor arcu. Vivamus lacus lorem,
-          vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
-          quis, vehicula pharetra diam. Aenean id nulla tellus.
+          Producing fashion costs thousands of litres of water and other natural resources, and
+          results in millions of tonnes of waste on landfills every year. The environmental impact
+          of fast fashion is substantial, and the problem of fast fashion is one affecting everyone.
+          Yet, not enough is done to achieve reusability of clothes, which is exactly the issue that
+          this project sought to solve. <br />
         </p>
         <p class="p-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
-          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
-          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
-          porttitor fermentum lectus eu volutpat. In sit amet tempor arcu. Vivamus lacus lorem,
-          vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
-          quis, vehicula pharetra diam. Aenean id nulla tellus.
+          The project evolved in different stages, staring with ideating, in which different
+          ideation methods were used to brainstorm ideas that could evolve into concepts. The
+          concepts were created using low fidelity wireframes, where we decided to allow all members
+          of the team to design her concept and express her thought behind the design process. After
+          some extensive deliberations and short evaluations of the concepts, we continued with just
+          one, where we combined our skills to design a high fidelity prototype in Figma. Following
+          this stage came one that involved thorough evaluations with multiple users, as well as
+          iterations on the design where improvements were necessary. <br />
         </p>
       </div>
       <div class="content-item image-grid">
         <div class="container">
           <img
             class="content-item__image"
-            src="../assets/imgs/UXProject1.png"
-            alt="Daily UI #27 Gradient picker dropdown"
+            src="../assets/imgs/ux-project-3.png"
+            alt="UX project app screenshot profile page"
           />
-          <h2>description</h2>
+          <h2>Profile page</h2>
         </div>
         <div class="container">
           <img
             class="content-item__image"
-            src="../assets/imgs/UXProject1.png"
-            alt="Daily UI #27 Gradient picker dropdown"
+            src="../assets/imgs/ux-project-2.png"
+            alt="UX project app screenshot homepage with events"
           />
-          <h2>description</h2>
+          <h2>Events page</h2>
         </div>
         <div class="container">
           <img
             class="content-item__image"
-            src="../assets/imgs/UXProject1.png"
-            alt="Daily UI #27 Gradient picker dropdown"
+            src="../assets/imgs/ux-project-1.png"
+            alt="UX project app screenshot environmental impact infographic"
           />
-          <h2>description</h2>
+          <h2>Infographic</h2>
         </div>
       </div>
       <div class="content-item">
         <p class="p-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero mauris, hendrerit
-          non dapibus aliquet, scelerisque at magna. Nulla euismod est eleifend, egestas ligula sit
-          amet, lobortis nulla. Nam vel urna rhoncus, ultricies ante nec, feugiat libero. Vestibulum
-          porttitor fermentum lectus eu volutpat. In sit amet tempor arcu. Vivamus lacus lorem,
-          vulputate a purus sed, sollicitudin imperdiet justo. Donec ex urna, maximus eget massa
-          quis, vehicula pharetra diam. Aenean id nulla tellus.
+          Results of the project were positive as users expressed feelings of happiness and
+          satisfaction with the idea of using the clothing swap solution in their nearby community.
+          To us, the design team, it felt important to know that we tool sufficient time to research
+          the problem, brainstorm potential solutions and evaluate multiple possibilities, but
+          equally so to realise the value of design when it comes to the encouragement of making
+          sustainable, yet fashionalbe choices. <br />
         </p>
       </div>
     </div>
-    <div class="circle-element circle-1"></div>
-    <div class="circle-element circle-2"></div>
+    <!-- <div class="circle-element circle-1"></div>
+    <div class="circle-element circle-2"></div> -->
   </section>
 </template>
 
@@ -132,16 +130,16 @@
 }
 
 .circle-1 {
-  background-color: #e3eeff;
+  background-color: #649173;
   left: 50%;
   transform: translateX(calc(-50% - 10%));
   bottom: 4rem;
   z-index: -2;
-  opacity: 0.55;
+  opacity: 0.95;
 }
 
 .circle-2 {
-  background-color: #f3e7e9;
+  background-color: #dbd5a4;
   left: 50%;
   transform: translateX(calc(-50% - 5%));
   bottom: 0;
@@ -165,7 +163,7 @@
           width: 50%;
         }
         .p-4 {
-          width: 100%;
+          width: 35%;
         }
 
         &__image {
