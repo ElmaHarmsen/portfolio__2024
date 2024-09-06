@@ -13,13 +13,13 @@
         <p class="p-1">
           I recently graduated from the Uppsala University in Sweden with a master’s degree in Human
           Computer Interaction. I now strive to be a UX/UI Designer and User Researcher with the
-          ambition to be at the forefront of design and technology innovation. <br />
+          ambition to be at the forefront of design research and technology innovation. <br />
         </p>
         <p class="p-2">
           My education in Human Computer Interaction has made me appreciate user research driven
           design, and has given me the skills for designing user experiences and developing user
-          interfaces. It is my passion for design research which has led me with inspiration to
-          create truly meaningful and valued user experiences. <br />
+          interfaces. Yet, it is my passion for design research which has led me with inspiration to
+          create meaningful and valued user experiences. <br />
         </p>
         <p class="p-3">
           Researching robots and designing for the use of robots in different social contexts is

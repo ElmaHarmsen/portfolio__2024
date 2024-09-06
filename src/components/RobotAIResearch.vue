@@ -49,8 +49,8 @@
           our society, because introducing technology of any kind, especially Artificial
           Intelligence and robotics, can greatly influence the way we define ourselves, our role and
           our purpose in the workplace. My ambition is to be at the forefront of research and design
-          in social robotics and AI, and to explore the possibilities and complications with
-          interactions between humans and robots, and to help shape society thrive forward. <br />
+          in social robotics and AI, to explore the possibilities and ethical complications with
+          interactions between humans and robots, and to help society thrive forward. <br />
         </p>
       </div>
     </div>
@@ -133,13 +133,13 @@
         row-gap: 8rem;
 
         .p-1 {
-          width: 65%;
+          width: 60%;
         }
         .p-2 {
-          width: 50%;
+          width: 85%;
         }
         .p-3 {
-          width: 85%;
+          width: 45%;
         }
       }
 
