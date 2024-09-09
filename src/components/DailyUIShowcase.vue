@@ -21,44 +21,52 @@
       <div class="image-grid">
         <div class="content-item image-grid__top">
           <div class="image-container">
-            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>#00 Smth</h2>
+            <img
+              class="image-container__image"
+              src="../assets//imgs/DUI-not-found.png"
+              alt="Daily UI #008 404/not found page"
+            />
+            <h2>#008 Not Found</h2>
           </div>
           <div class="image-container">
             <img
               class="image-container__image img-vertical"
-              src="../assets/imgs/DailyUI27.png"
-              alt="Daily UI #27 Gradient picker dropdown"
+              src="../assets/imgs/DUI-countdown.png"
+              alt="Daily UI #014 music festival countdown"
             />
-            <h2>#27 Smth</h2>
+            <h2>#014 Countdown</h2>
           </div>
         </div>
         <div class="content-item image-grid__middle">
           <div class="image-container">
             <img
               class="image-container__image img-vertical"
-              src="../assets/imgs/DailyUI27.png"
-              alt="Daily UI #27 Gradient picker dropdown"
+              src="../assets/imgs/DUI-landing-page.png"
+              alt="Daily UI #003 Landing page for book site"
             />
-            <h2>#27 Smth</h2>
+            <h2>#003 Landing page</h2>
           </div>
           <div class="image-container">
-            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>#00 Smth</h2>
+            <img class="image-container__image" src="../assets//imgs/DUI-music-player.png" alt="" />
+            <h2>#009 Music Player</h2>
           </div>
         </div>
         <div class="content-item image-grid__bottom">
           <div class="image-container">
-            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>#00 Smth</h2>
+            <img
+              class="image-container__image"
+              src="../assets//imgs/DUI-calculator.png"
+              alt="Daily UI #004 Calculator page"
+            />
+            <h2>#004 Calculation</h2>
           </div>
           <div class="image-container">
             <img
               class="image-container__image img-vertical"
-              src="../assets/imgs/DailyUI27.png"
-              alt="Daily UI #27 Gradient picker dropdown"
+              src="../assets/imgs/DUI-boarding-pass.png"
+              alt="Daily UI #27 Boarding pass Norwegian"
             />
-            <h2>#27 Smth</h2>
+            <h2>#024 Boarding pass</h2>
           </div>
         </div>
       </div>

@@ -16,44 +16,38 @@
       <div class="image-grid">
         <div class="content-item image-grid__top">
           <div class="image-container">
-            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>Daily UI #00</h2>
+            <img
+              class="image-container__image"
+              src="../assets//imgs/DUI-search.png"
+              alt="Daily UI #022 Search Page for pinterest-like website"
+            />
+            <h2>Daily UI #022</h2>
           </div>
           <div class="image-container">
             <img
               class="image-container__image img-vertical"
               src="../assets/imgs/DailyUI27.png"
-              alt="Daily UI #27 Gradient picker dropdown"
+              alt="Daily UI #027 Gradient picker dropdown"
             />
-            <h2>Daily UI #27</h2>
+            <h2>Daily UI #027</h2>
           </div>
         </div>
         <div class="content-item image-grid__middle">
           <div class="image-container">
             <img
               class="image-container__image img-vertical"
-              src="../assets/imgs/DailyUI27.png"
-              alt="Daily UI #27 Gradient picker dropdown"
+              src="../assets/imgs/DUI-settings.png"
+              alt="Daily UI #027 settings page for reading app"
             />
-            <h2>Daily UI #27</h2>
-          </div>
-          <div class="image-container">
-            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>Daily UI #00</h2>
-          </div>
-        </div>
-        <div class="content-item image-grid__bottom">
-          <div class="image-container">
-            <img class="image-container__image" src="../assets//imgs/unsplash-img-1.jpg" alt="" />
-            <h2>Daily UI #00</h2>
+            <h2>Daily UI #007</h2>
           </div>
           <div class="image-container">
             <img
-              class="image-container__image img-vertical"
-              src="../assets/imgs/DailyUI27.png"
-              alt="Daily UI #27 Gradient picker dropdown"
+              class="image-container__image"
+              src="../assets//imgs/DUI-checkout.png"
+              alt="Daily UI #002 creditcard checkout page"
             />
-            <h2>Daily UI #27</h2>
+            <h2>Daily UI #002</h2>
           </div>
         </div>
       </div>
