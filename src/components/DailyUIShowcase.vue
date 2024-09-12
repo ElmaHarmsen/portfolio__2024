@@ -23,10 +23,10 @@
           <div class="image-container">
             <img
               class="image-container__image"
-              src="../assets//imgs/DUI-not-found.png"
-              alt="Daily UI #008 404/not found page"
+              src="../assets//imgs/DUI-search.png"
+              alt="Daily UI #022 Search images of cats and dogs on Pinterest-like website"
             />
-            <h2>#008 Not Found</h2>
+            <h2>#022 Search</h2>
           </div>
           <div class="image-container">
             <img
@@ -63,10 +63,10 @@
           <div class="image-container">
             <img
               class="image-container__image img-vertical"
-              src="../assets/imgs/DUI-boarding-pass.png"
-              alt="Daily UI #27 Boarding pass Norwegian"
+              src="../assets/imgs/DUI-purchase-receipt.png"
+              alt="Daily UI #17 Purchase receipt for Steam game redesign"
             />
-            <h2>#024 Boarding pass</h2>
+            <h2>#024 Purchase Receipt</h2>
           </div>
         </div>
       </div>
@@ -117,6 +117,7 @@
           display: flex;
           flex-flow: column nowrap;
           row-gap: 1rem;
+
           &__image {
             width: 100%;
             height: auto;

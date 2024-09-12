@@ -18,10 +18,10 @@
           <div class="image-container">
             <img
               class="image-container__image"
-              src="../assets//imgs/DUI-search.png"
-              alt="Daily UI #022 Search Page for pinterest-like website"
+              src="../assets//imgs/DUI-analysis-chart.png"
+              alt="Daily UI #018 Analysis chart for life care management"
             />
-            <h2>Daily UI #022</h2>
+            <h2>Daily UI #018</h2>
           </div>
           <div class="image-container">
             <img
