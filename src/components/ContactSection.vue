@@ -5,7 +5,9 @@
     </div>
     <div class="flex-container subitems-container">
       <div class="flex-container">
-        <h3>elmaharmsen01<span class="h2-text">@gmail.com</span></h3>
+        <a href="https://www.linkedin.com/in/elma-harmsen/" target="_blank">
+          <h3><span class="h2-text">LinkedIn.com/</span>elma-harmsen</h3>
+        </a>
       </div>
       <span class="nav-line"></span>
     </div>

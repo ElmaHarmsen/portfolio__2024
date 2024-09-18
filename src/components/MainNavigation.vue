@@ -26,7 +26,7 @@ const scrollIntoView = (id) => {
         <h2 @click="scrollIntoView('experience-section', (homeNavOpen = false))">Selected Works</h2>
         <h2 @click="scrollIntoView('about-section', (homeNavOpen = false))">About Me</h2>
         <a
-          href="https://drive.google.com/file/d/1UZjNtQ9nmxyYSvrw8UkutdDfxknvxHN2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1J9CPMHknzn4jkXvPhInI-_E-kEYkzQ51/view?usp=sharing"
           target="_blank"
           @click="homeNavOpen = false"
         >
@@ -45,7 +45,7 @@ const scrollIntoView = (id) => {
       <span class="nav-line"></span>
       <div class="content-item">
         <a
-          href="https://drive.google.com/file/d/1UZjNtQ9nmxyYSvrw8UkutdDfxknvxHN2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1J9CPMHknzn4jkXvPhInI-_E-kEYkzQ51/view?usp=sharing"
           target="_blank"
         >
           <h2>Curriculum Vitae</h2>
